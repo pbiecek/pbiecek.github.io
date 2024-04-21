@@ -15,7 +15,7 @@ My personal mission is to enhance human capabilities by supporting them through 
 
 ## Academic background
 
-I work as associate professor [MiNI@Warsaw University of Technology](http://mini.pw.edu.pl) and assistant professor [MIM@Univeristy of Warsaw](http://mimuw.edu.pl). I finished mathematical statistics at [PAM@WUST](http://wmat.pwr.edu.pl/en/) and software engineering at [CSM@WUST](http://wiz.pwr.edu.pl/en/).
+I work as full professor [MiNI@Warsaw University of Technology](http://mini.pw.edu.pl) and  [MIM@Univeristy of Warsaw](http://mimuw.edu.pl). I finished mathematical statistics (PhD, MSc, BEng) at [PAM@WUST](http://wmat.pwr.edu.pl/en/) and software engineering (MSc, BEng) at [CSM@WUST](http://wiz.pwr.edu.pl/en/).
 
 More in [my CV](http://biecek.pl/CV).
 
