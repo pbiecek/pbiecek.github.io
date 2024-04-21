@@ -8,12 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Przemyslaw Biecek"
 title_separator          : "-"
 name                     : &name "Przemyslaw Biecek"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://pbiecek.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "academicpages-website-temp/" # the subpath of your site, e.g. "/blog"
 repository               : "pbiecek/pbiecek.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -21,29 +21,29 @@ repository               : "pbiecek/pbiecek.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "NEW: Your Sidebar Name"
+  avatar           : "images/profile.png"
+  name             : "Przemyslaw Biecek"
   pronouns         : # example: "she/her"  
   bio              : "NEW: Short biography for the left-hand sidebar"
   location         : "Warsaw / Poland / Europe"
-  employer         : "NEW: Red Brick University"
-  uri              : # URL
-  email            : "NEW: none@example.org" 
+  employer         : "MI2.AI / Warsaw University of Technology / University of Warsaw"
+  uri              : "https://mi2.ai/"
+  email            : "przemyslaw.biecek at gmail.com" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid            : "http://orcid.org/yourorcidurl"
+  arxiv            : "http://arxiv.org/a/biecek_p_1"
+  googlescholar    : "https://scholar.google.pl/citations?user=Af0O75cAAAAJ"
+  orcid            : "https://orcid.org/0000-0001-8423-1823"
 
   # Repositories and software development
-  github           : "academicpages"
+  github           : "pbiecek"
 
   # Social media
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/pbiecek/"
   medium           : # URL
-  twitter          : # Username for X / Twitter
+  twitter          : "https://twitter.com/PrzeBiec"
   wikipedia        : # Username
-  youtube          : # Username
+  youtube          : "www.youtube.com/@pbiecek"
 
 
 # Site Settings
