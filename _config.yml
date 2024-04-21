@@ -21,19 +21,19 @@ repository               : "pbiecek/pbiecek.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   name             : "Przemyslaw Biecek"
   pronouns         : # example: "she/her"  
   bio              : "NEW: Short biography for the left-hand sidebar"
-  location         : "Warsaw / Poland / Europe"
-  employer         : "MI2.AI / Warsaw University of Technology / University of Warsaw"
+  location         : "Warsaw.Poland.Europe"
+  employer         : "MI2.AI / WUT / UoW"
   uri              : "https://mi2.ai/"
   email            : "przemyslaw.biecek at gmail.com" 
 
   # Academic websites
-  arxiv            : "http://arxiv.org/a/biecek_p_1"
   googlescholar    : "https://scholar.google.pl/citations?user=Af0O75cAAAAJ"
   orcid            : "https://orcid.org/0000-0001-8423-1823"
+  arxiv            : "http://arxiv.org/a/biecek_p_1"
 
   # Repositories and software development
   github           : "pbiecek"
