@@ -8,6 +8,8 @@ author_profile: true
 {% include base_path %}
 
 
+## Selected academic courses
+
 * Projekt Zesopłowy; Team Project <a href="https://github.com/pbiecek/SystemAnalizyDanych">[2017/2018]</a> <a href="https://github.com/pbiecek/ProjektZespolowy2018">[2018/2019]</a>
 * Techniki Wizualizacji Danych ;  Data Visualisation Techniques   [2014/2015] <a href="https://github.com/pbiecek/TechnikiWizualizacjiDanych/tree/master/MINI_2016">[2016/2017]</a> <a href="https://github.com/pbiecek/TechnikiWizualizacjiDanych2018/blob/master/README.md">[2018/2019]</a>
 * Seminarium dyplomowe Machine Learning <a href="https://github.com/pbiecek/MachineLearningSeminar">[2017/2018]</a> <a href="https://github.com/pbiecek/MachineLearningSeminar">[2018/2019]</a>
