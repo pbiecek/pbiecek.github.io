@@ -1,6 +1,6 @@
 {% include base_path %}
 
-<img src='{{ post.icon }}' align='left' width='150'  style='border:1px solid #494e52'> 
+<img src='{{ post.icon }}' align='left' width='150' style='margin:5px 25px; border:1px solid #494e52'> 
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -30,12 +30,21 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }} ({{ post.date | default: '1900-01-01' | date: '%Y' }})</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }} (<time datetime="{{ post.date | default: '1900-01-01' | date: '%Y' }}">{{ post.date | default: '1900-01-01' | date: '%Y' }}</time>)</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
     
+    
+    {% if post.paperurl %}
+    <p class="wordwrap"><a href=" {{ post.paperurl }} ">Website of the english version</a></p>
+    {% endif %}
+
+    {% if post.paperurl-pl %}
+    <p class="wordwrap"><a href=" {{ post.paperurl-pl }} ">Strona www wersji polskiej</a></p>
+    {% endif %}
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -45,14 +54,6 @@
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-    
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p class="wordwrap"><a href=" {{ post.paperurl }} ">The book's website</a></p>
     {% endif %}
 
   </article>
