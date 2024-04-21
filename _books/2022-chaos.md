@@ -4,7 +4,7 @@ icon: "https://pbiecek.github.io/academicpages-website-temp/images/icon-book-cha
 collection: Books
 permalink: /books/2022-chaos
 excerpt: "Chaos Game with examples in R, Python and Julia. "
-paperurl: 'chaosgame.drwhy.ai/'
+paperurl: 'https://chaosgame.drwhy.ai/'
 date: 2022-01-01
 ---
 
