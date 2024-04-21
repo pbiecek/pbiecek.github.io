@@ -22,8 +22,8 @@ repository               : "pbiecek/pbiecek.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Przemyslaw Biecek"
-  pronouns         : # example: "she/her"  
+  name             : "Przemysław Biecek (p-sh-eh-m-eh-k)"
+  pronouns         : # example: "he/him"  
   bio              : "NEW: Short biography for the left-hand sidebar"
   location         : "Warsaw.Poland.Europe"
   employer         : "MI2.AI / WUT / UoW"
