@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Przemysław Biecek <br/> (p-sh-eh-m-eh-k)"
   pronouns         : # example: "he/him"  
-  bio              : "I train people, develop methods and build tools to foster trustworthy and reliable artificial intelligence."
+  bio              : "I educate people, develop methods and build tools to foster trustworthy and reliable artificial intelligence."
   location         : "Warsaw.Poland.Europe"
   employer         : "MI2.AI / WUT / UoW"
   uri              : "https://mi2.ai/"
@@ -188,6 +188,14 @@ collections:
 
 # Defaults
 defaults:
+  # _books
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: true
+      share: true
   # _posts
   - scope:
       path: ""
