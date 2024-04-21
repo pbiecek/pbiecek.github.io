@@ -3,14 +3,14 @@ main:
   - title: "Books"
     url: /books/    
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Publications"
-    url: /publications/
-
   - title: "Teaching"
     url: /teaching/    
     
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Talks"
+    url: /talks/    
+
   - title: "Guide"
     url: /markdown/
