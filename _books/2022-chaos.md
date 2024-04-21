@@ -1,6 +1,6 @@
 ---
 title: "Chaos Game with examples in R, Python and Julia."
-icon: "https://pbiecek.github.io/academicpages-website-temp/images/icon-book-chaos.png"
+icon: "https://pbiecek.github.io/images/icon-book-chaos.png"
 collection: Books
 permalink: /books/2022-chaos
 excerpt: "Are you curious about fractals? The Chaos Game is the book for you. You will learn the mathematical basis behind these figures, find out what algorithm can be used to code them, write code in your favourite programming language (Python, R, Julia?) and also explore the bibliographies of three mathematicians associated with the development of mathematics around these shapes. This is the next book in the Beta Bit series for anyone interested in computational mathematics and data analysis."

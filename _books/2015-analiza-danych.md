@@ -1,7 +1,7 @@
 ---
 title: "Analiza danych z programem R"
 collection: Books
-icon: "https://pbiecek.github.io/academicpages-website-temp/images/icon-book-analiza.png"
+icon: "https://pbiecek.github.io/images/icon-book-analiza.png"
 permalink: /books/2015-analiza-danych
 excerpt: "An academic textbook describing estimation and testing topics for linear models with fixed effects, random effects and mixed effects. The theoretical introduction is complemented by numerous examples for one-way and multivariate ANOVA, one and multiple random components. The examples focus on biological and medical applications and are based on real analyses of real data."
 paperurl-pl: 'https://ksiegarnia.pwn.pl/Analiza-danych-z-programem-R,68467550,p.html'

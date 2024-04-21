@@ -1,6 +1,6 @@
 ---
 title: "Chart Runners"
-icon: "https://pbiecek.github.io/academicpages-website-temp/images/icon-book-charts.png"
+icon: "https://pbiecek.github.io/images/icon-book-charts.png"
 collection: Books
 permalink: /books/2023-charts
 excerpt: "How can you create good plots? Good ones, meaning ones that are viewed with pleasure, that are informative, that are understood by a wide audience but that still can be appreciated by connoisseurs."

@@ -1,7 +1,7 @@
 ---
 title: "Eseje o sztuce wizualizacji danych"
 collection: Books
-icon: "https://pbiecek.github.io/academicpages-website-temp/images/icon-book-eseje.png"
+icon: "https://pbiecek.github.io/images/icon-book-eseje.png"
 permalink: /books/2017-eseje
 excerpt: "Discover! Reveal! Explain! These three roles can be fulfilled by good statistical graphics. Good means understandable, faithful to the data, aesthetic. How to create such graphics? A collection of essays on the art of displaying data systematises knowledge useful in designing and producing good data visualisations. It is not easy. On the one hand, we can fall into the trap of a colourful mush full of numbers, which is sometimes proudly called infographics. On the other hand, we can fall into the trap of graphics that perfectly reproduce the complexity of numbers, and thus completely incomprehensible. Somewhere in the middle is a graphic that explains, that informs, that is aesthetically pleasing and informative."
 paperurl-pl: 'http://biecek.pl/Eseje/'
