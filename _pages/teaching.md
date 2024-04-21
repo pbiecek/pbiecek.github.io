@@ -7,9 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-
 ## Selected academic courses
 
+* eXplainable Machine Learning <a href="https://github.com/mim-uw/eXplainableMachineLearning-2023">[2022/2023]</a> <a href="https://github.com/mim-uw/eXplainableMachineLearning-2024">[2023/2024]</a>
+* MSc seminar ,,Machine Learning'' <a href="https://github.com/mim-uw/MachineLearningSeminar">[2017/2018] [2018/2019] [2019/2020] [2020/2021] [2021/2022] [2022/2023] [2023/2024]</a>
 * Projekt Zesopłowy; Team Project <a href="https://github.com/pbiecek/SystemAnalizyDanych">[2017/2018]</a> <a href="https://github.com/pbiecek/ProjektZespolowy2018">[2018/2019]</a>
 * Techniki Wizualizacji Danych ;  Data Visualisation Techniques   [2014/2015] <a href="https://github.com/pbiecek/TechnikiWizualizacjiDanych/tree/master/MINI_2016">[2016/2017]</a> <a href="https://github.com/pbiecek/TechnikiWizualizacjiDanych2018/blob/master/README.md">[2018/2019]</a>
 * Seminarium dyplomowe Machine Learning <a href="https://github.com/pbiecek/MachineLearningSeminar">[2017/2018]</a> <a href="https://github.com/pbiecek/MachineLearningSeminar">[2018/2019]</a>
@@ -37,7 +38,3 @@ author_profile: true
 - [PISA2012](https://github.com/pbiecek/PISA2012lite), [PISA2009](https://github.com/pbiecek/PISA2009lite),  [PISA2006](https://github.com/pbiecek/PISA2006lite),  [PISA2003](https://github.com/pbiecek/PISA2003lite),  [PISA2000](https://github.com/pbiecek/PISA2000lite) Datasets from PISA OECD studies in R format.
       	
 
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
