@@ -22,7 +22,9 @@ repository               : "pbiecek/pbiecek.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Przemysław Biecek (p-sh-eh-m-eh-k)"
+  name             : "Przemysław Biecek <br/>
+
+(p-sh-eh-m-eh-k)"
   pronouns         : # example: "he/him"  
   bio              : "My personal mission is to enhance human capabilities by supporting them through access to data-driven and knowledge-based predictions. I execute it by developing methods and tools for responsible machine learning, trustworthy artificial intelligence and reliable software engineering."
   location         : "Warsaw.Poland.Europe"

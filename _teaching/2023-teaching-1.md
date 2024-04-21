@@ -8,4 +8,4 @@ date: 2023-10-01
 location: "Warsaw, Poland"
 ---
 
-Course materials are at https://github.com/mim-uw/MachineLearningSeminar
+Course materials are at [https://github.com/mim-uw/MachineLearningSeminar](https://github.com/mim-uw/MachineLearningSeminar)
