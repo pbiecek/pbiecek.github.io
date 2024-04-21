@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "AI is broaken, and we are here to fix it"
+title: "AI is broken, and we are here to fix it"
 author_profile: true
 redirect_from: 
   - /about/
