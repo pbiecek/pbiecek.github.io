@@ -1,6 +1,6 @@
 ---
 title: "How I use GenAI at work: MidJourney"
-excerpt: "Generative AI is transforming how we work, but the extent of this change remains uncertain. Adopting these tools in academia presents unique challenges, yet this shift is inevitable. This blog series documents how I use selected GenAI tools in late 2024, offering insights that might inspire others in academia or serve as a personal reference for the early days of this transformation.<br><br>In this post, I delve into MidJourney, a versatile tool for generating creative visuals. I explain why I prefer it over similar tools, describe how I use it (e.g., for presentations, comics, and videos), and outline its strengths and ethical considerations. While MidJourney excels in visual storytelling, I caution against using it for research graphics or imitating contemporary artists' styles. How do you use MidJourney? Share your thoughts in the comments!<br/><img src='/images/20241215_comics.png](/images/20241215_comics.png'>"
+excerpt: "Generative AI is transforming how we work, but the extent of this change remains uncertain. Adopting these tools in academia presents unique challenges, yet this shift is inevitable. This blog series documents how I use selected GenAI tools in late 2024, offering insights that might inspire others in academia or serve as a personal reference for the early days of this transformation.<br><br>In this post, I delve into MidJourney, a versatile tool for generating creative visuals. I explain why I prefer it over similar tools, describe how I use it (e.g., for presentations, comics, and videos), and outline its strengths and ethical considerations. While MidJourney excels in visual storytelling, I caution against using it for research graphics or imitating contemporary artists' styles. How do you use MidJourney? Share your thoughts in the comments!<br/><img src='/images/20241215_comics.png'>"
 collection: portfolio
 ---
 
@@ -10,17 +10,17 @@ Today will be about one of my favorite tools: MidJourney
 
 **What is MidJourney?**
 
-MidJourney (https://www.midjourney.com/) is an online tool designed to generate high-quality, creative images based on textual prompts. It can produce artwork that ranges from photorealistic photos to highly stylized, abstract images. Other tools with similar capabilities include DALL-E and Stable Diffusion. I, however, prefer MidJourney because of its more creative interpretations of text prompts (a very subjective evaluation).
+MidJourney [https://www.midjourney.com/](https://www.midjourney.com/) is an online tool designed to generate high-quality, creative images based on textual prompts. It can produce artwork that ranges from photorealistic photos to highly stylized, abstract images. Other tools with similar capabilities include DALL-E and Stable Diffusion. I, however, prefer MidJourney because of its more creative interpretations of text prompts (a very subjective evaluation).
 
 **How do I work with MidJourney?**
 
 *The following description applies to a paid subscription.
 
-Initially, prompts for MidJourney were sent via Discord, but an online editor (https://www.midjourney.com/editor) has been available for some time, which makes it easier to view, organize and work with the generated images.
+Initially, prompts for MidJourney were sent via Discord, but an online editor [https://www.midjourney.com/editor](https://www.midjourney.com/editor) has been available for some time, which makes it easier to view, organize and work with the generated images.
 
-The query can be parameterized, controlling variety, repeatability, certain technical paraemters of the image (aspect ratio). A list of parameters is available in the documentation at https://docs.midjourney.com/docs/parameter-list. The two I use most often are the personalization token (you can describe your preferences and later apply them to a group of prompts) and aspect ratio.
+The query can be parameterized, controlling variety, repeatability, certain technical paraemters of the image (aspect ratio). A list of parameters is available in the documentation at [https://docs.midjourney.com/docs/parameter-list](https://docs.midjourney.com/docs/parameter-list). The two I use most often are the personalization token (you can describe your preferences and later apply them to a group of prompts) and aspect ratio.
 
-The basic query (`imagine` command) creates a new image, but among the avaliable commands (full list here https://docs.midjourney.com/docs/command-list) you can also find `describe` - a command that generates a text description to another image, very useful for style transfer, or `blend` for creative mixing of two images.
+The basic query (`imagine` command) creates a new image, but among the avaliable commands (full list here [https://docs.midjourney.com/docs/command-list](https://docs.midjourney.com/docs/command-list)) you can also find `describe` - a command that generates a text description to another image, very useful for style transfer, or `blend` for creative mixing of two images.
 
 Once I have an idea of what I would like to paint, usually the process itself is very iterative. After some local internal brainstorming, I start modifying details, editing photos (yes, you can inpaint parts of photos, for example). On average, after 10 steps, I have a picture close to what I had in mind.
 
@@ -52,7 +52,7 @@ GenAI can do a great job of underplaying the voice for short videos (as I will w
 
 There are, of course, areas in which I not only do not use MidJourney, but strongly discourage it, graphics for research papers and transferring the style of living artists.
 
-*Research papers.* Graphics can captivate our imagination, but it is in scientific papers that critical thinking must be activated. There are already examples in the literature when realistic but untrue and incorrect diagrams were put in articles (see https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1339390/full). For me, scientific articles are an area with too much responsibility to let GenAI in on autopilot.
+*Research papers.* Graphics can captivate our imagination, but it is in scientific papers that critical thinking must be activated. There are already examples in the literature when realistic but untrue and incorrect diagrams were put in articles (see [https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1339390/full](https://www.frontiersin.org/)). For me, scientific articles are an area with too much responsibility to let GenAI in on autopilot.
 
 *Style transfer.* Artists spend years working to develop their unique style, so it is quite unethical to imitate their style without permission. This applies to contemporary artists. The works of those who died years ago are already in the public domain.
 
