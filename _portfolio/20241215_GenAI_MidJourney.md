@@ -1,5 +1,5 @@
 ---
-title: "How I use GenAI at work: MidJourney"
+title: "2024-12-15 How I use GenAI at work: MidJourney"
 excerpt: "Generative AI is transforming how we work, but the extent of this change remains uncertain. Adopting these tools in academia presents unique challenges, yet this shift is inevitable. This blog series documents how I use selected GenAI tools in late 2024, offering insights that might inspire others in academia or serve as a personal reference for the early days of this transformation.<br><br>In this post, I delve into MidJourney, a versatile tool for generating creative visuals. I explain why I prefer it over similar tools, describe how I use it (e.g., for presentations, comics, and videos), and outline its strengths and ethical considerations. While MidJourney excels in visual storytelling, I caution against using it for research graphics or imitating contemporary artists' styles. How do you use MidJourney? Share your thoughts in the comments!<br/><br/><center><img src='/images/20241215_comics_small.png' width='700'></center>"
 collection: portfolio
 ---
@@ -14,7 +14,7 @@ MidJourney [https://www.midjourney.com/](https://www.midjourney.com/) is an onli
 
 **How do I work with MidJourney?**
 
-*The following description applies to a paid subscription.
+*The following description applies to a paid subscription.*
 
 Initially, prompts for MidJourney were sent via Discord, but an online editor [https://www.midjourney.com/editor](https://www.midjourney.com/editor) has been available for some time, which makes it easier to view, organize and work with the generated images.
 
@@ -56,6 +56,6 @@ There are, of course, areas in which I not only do not use MidJourney, but stron
 
 *Style transfer.* Artists spend years working to develop their unique style, so it is quite unethical to imitate their style without permission. This applies to contemporary artists. The works of those who died years ago are already in the public domain.
 
-**And how do you use Midjourney? **
+**And how do you use Midjourney?**
 
 Let me know in the comments.
