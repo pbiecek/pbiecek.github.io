@@ -42,9 +42,6 @@ Poniżej przykład podsumowania projektu PINEBERRY. To jedno z pierwszych nagra�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/un6-ytpk9BM?si=V4Tii0AOZ_Y6iDfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/un6-ytpk9BM?si=V4Tii0AOZ_Y6iDfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 *Automatyczne tłumaczenia:* 
 
 Zarówno w dydaktyce, jak i w działaniach popularyzatorskich zawsze jestem rozdarty między dwoma językami. Wiele tematów dotyczy lokalnych zagadnień, więc pisanie o nich po polsku wydaje się naturalne. Z drugiej strony, angielski pozwala dotrzeć do szerszego grona odbiorców.

@@ -37,7 +37,7 @@ One of the challenges in writing articles is that the author often has all the c
 
 In such situations, it’s extremely helpful to ask a colleague to read and comment on your article. This external perspective on the completeness of your arguments is invaluable. But how many times a day can you ask for such help?
 
-With NotebookLM, you can do this as often as you like. Quite good start of the conversation is "What questions might a reviewer have?". I often use its summary generation feature to ensure that the key points I intended to highlight in my work are actually noticeable—even to an automated assistant.
+With NotebookLM, you can do this as often as you like. Quite good start of the conversation is "What questions might a reviewer have?". I often use its summary generation feature to ensure that the key points I intended to highlight in my work are actually noticed—even to an automated assistant.
 
 
 ![/images/2024122_brief.png](/images/2024122_brief.png)
