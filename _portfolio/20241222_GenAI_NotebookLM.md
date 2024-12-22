@@ -1,6 +1,6 @@
 ---
 title: "2024-12-20 How I use GenAI at work: NotebookLM"
-excerpt: "In this post, I delve into NotebookLM, a generative AI tool designed for interactive exploration of documents. We go over its key features, including the ability to ask questions in natural language, generate audio summaries, and organize responses into notes, making it a versatile tool for academic and professional use. The post emphasizes three primary applications: refining one’s own papers, creating podcasts summarizing articles, and brainstorming teaching strategies like storytelling and generating examples. It also cautions against using NotebookLM for reviewing research papers or handling sensitive documents due to privacy and reliability concerns. And how do you use NotebookLM? Share your thoughts in the comments!<br/><br/><center><img src='/images/2024122_podcasts.png' width='700'></center>"
+excerpt: "In this post, I discuss NotebookLM, a generative AI tool designed for interactive exploration of documents. We go over its key features, including the ability to ask questions in natural language, generate audio summaries, and organize responses into notes, making it a versatile tool for academic and professional use. The post emphasizes three primary applications: refining one’s own papers, creating podcasts summarizing articles, and brainstorming teaching strategies like storytelling and generating examples. It also cautions against using NotebookLM for reviewing research papers or handling sensitive documents due to privacy and reliability concerns. And how do you use NotebookLM? Share your thoughts in the comments!<br/><br/><center><img src='/images/2024122_podcasts.png' width='700'></center>"
 collection: portfolio
 ---
 
@@ -37,9 +37,8 @@ One of the challenges in writing articles is that the author often has all the c
 
 In such situations, it’s extremely helpful to ask a colleague to read and comment on your article. This external perspective on the completeness of your arguments is invaluable. But how many times a day can you ask for such help?
 
-With NotebookLM, you can do this as often as you like. I often use its summary generation feature to ensure that the key points I intended to highlight in my work are actually noticeable—even to an automated assistant.
+With NotebookLM, you can do this as often as you like. Quite good start of the conversation is "What questions might a reviewer have?". I often use its summary generation feature to ensure that the key points I intended to highlight in my work are actually noticeable—even to an automated assistant.
 
-Quite good start of the conversation is "What questions might a reviewer have?"
 
 ![/images/2024122_brief.png](/images/2024122_brief.png)
 
