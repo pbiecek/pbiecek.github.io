@@ -1,5 +1,5 @@
 ---
-title: "2024-12-20 How I use GenAI at work: NotebookLM"
+title: "2024-12-20 [ENG]: How I use GenAI at work: NotebookLM"
 excerpt: "In this post, I discuss NotebookLM, a generative AI tool designed for interactive exploration of documents. We go over its key features, including the ability to ask questions in natural language, generate audio summaries, and organize responses into notes, making it a versatile tool for academic and professional use. The post emphasizes three primary applications: refining one’s own papers, creating podcasts summarizing articles, and brainstorming teaching strategies like storytelling and generating examples. It also cautions against using NotebookLM for reviewing research papers or handling sensitive documents due to privacy and reliability concerns. And how do you use NotebookLM? Share your thoughts in the comments!<br/><br/><center><img src='/images/2024122_podcasts.png' width='700'></center>"
 collection: portfolio
 ---

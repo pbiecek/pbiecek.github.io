@@ -1,5 +1,5 @@
 ---
-title: "2024-12-21 How I use GenAI at work: HeyGen"
+title: "2024-12-21 [ENG]: How I use GenAI at work: HeyGen"
 excerpt: "HeyGen is a powerful generative AI tool that transforms how we create video content by simplifying the process of generating professional-quality videos with customizable avatars. In this blog, I share my experience with HeyGen and its applications in academic and creative workflows. From creating concise video summaries of complex projects to generating multilingual content effortlessly, HeyGen has proven to be a game-changer. Its excellent text-to-speech capabilities, customizable avatars, and efficient workflow streamline video production, saving time and enhancing accessibility. While there are some limitations, like the inability to use animated backgrounds, HeyGen's potential in education, outreach, and beyond is immense. And how do you use HeyGen? Share your thoughts in the comments!<br/><br/><center><img src='/images/2024123_heygen.png' width='700'></center>"
 collection: portfolio
 ---
@@ -12,9 +12,8 @@ Today, today I'm going to write about a tool with enormous potential, which I wi
 
 HeyGen [https://heygen.com/](https://heygen.com/) is an AI-powered platform for generating video content using customizable avatars. It enables users to create professional-looking videos by simply typing a script and selecting an avatar. The platform offers support for multiple languages and accents, making it suitable for diverse audiences.
 
-In essence, HeyGen is a virtual studio where you don’t need to hire actors, set up cameras, or even spend hours editing. It’s all about efficiency, accessibility, and customization.
-
-Such a solution has gigantic potential in the education sector (and beyond).
+In essence, HeyGen is a virtual studio where you don’t need to endlessly retake recordings, set up cameras, or even spend hours editing. It’s all about efficiency, accessibility, and customization.
+In my opinion, such solution has gigantic potential in the education sector (and beyond).
 
 
 **How do I work with HeyGen?**
