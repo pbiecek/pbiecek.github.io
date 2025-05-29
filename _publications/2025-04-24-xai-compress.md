@@ -1,6 +1,6 @@
 ---
 title: "Efficient and Accurate Explanation Estimation with Distribution Compression"
-authors: "Hubert_Baniecki, Giuseppe Casalicchio, Bernd Bischl, Przemyslaw Biecek"
+authors: "Hubert Baniecki, Giuseppe Casalicchio, Bernd Bischl, Przemyslaw Biecek"
 collection: publications
 permalink: /publication/2025-04-24-xai-compress
 hashtags: '<font color="#B5651D">#post-hoc</font> <font color="#1B1B1B">#Theory-XAI</font>'
