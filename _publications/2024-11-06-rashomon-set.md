@@ -1,9 +1,10 @@
 ---
 title: 'Exploration of the Rashomon Set Assists Trustworthy Explanations for Medical Data'
+authors: "Katarzyna Kobylińska, Mateusz Krzyziński, Rafał Machowicz, Mariusz Adamek, Przemyslaw Biecek"
 collection: publications
 permalink: /publication/2024-11-06-rashomon-set
-excerpt: 'This paper proposes Rashomon_DETECT, a novel algorithm for identifying behaviorally distinct models within the Rashomon set, addressing limitations of conventional single-model selection in high-stakes domains like medicine. By introducing the Profile Disparity Index (PDI) and leveraging XAI techniques, the method enables deeper analysis of model variability, enhancing trustworthiness and interpretability in predictive modeling.
-	<font color="red">#Rashomon</font> <font color="blue">#BioMed</font>'
+hashtags: '<font color="red">#Rashomon</font> <font color="blue">#BioMed</font>'
+excerpt: 'This paper proposes Rashomon_DETECT, a novel algorithm for identifying behaviorally distinct models within the Rashomon set, addressing limitations of conventional single-model selection in high-stakes domains like medicine. By introducing the Profile Disparity Index (PDI) and leveraging XAI techniques, the method enables deeper analysis of model variability, enhancing trustworthiness and interpretability in predictive modeling.'
 date: 2024-11-06
 venue: 'IEEE Journal of Biomedical and Health Informatics'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10745964'
