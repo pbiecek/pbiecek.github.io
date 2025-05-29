@@ -3,8 +3,7 @@ title: "Rethinking Visual Counterfactual Explanations Through Region Constraint"
 collection: publications
 permalink: /publication/2025-04-24-rethinking-vce
 excerpt: 'This paper introduces region-constrained visual counterfactual explanations (RVCEs), which limit modifications to predefined image regions to enhance interpretability and reduce cognitive biases in classifier explanations. By leveraging a novel Region-Constrained Counterfactual Schrödinger Bridge (RCSB), the approach achieves state-of-the-art performance while enabling precise and interactive counterfactual reasoning.
-
-	<font color="dark red">#GenXAI</font> <font color="dark green">#counterfactuals</font>'
+	<font color="#8B0000 red">#GenXAI</font> <font color="#008B00">#counterfactuals</font>'
 date: 2025-04-24
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://openreview.net/forum?id=gqeXXrIMr0'

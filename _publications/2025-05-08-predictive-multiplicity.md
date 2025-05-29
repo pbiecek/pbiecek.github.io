@@ -3,8 +3,7 @@ title: "Investigating the impact of balancing, filtering, and complexity on pred
 collection: publications
 permalink: /publication/2025-05-08-predictive-multiplicity
 excerpt: 'This paper explores how data preprocessing techniques, particularly balancing and filtering, influence predictive multiplicity and model stability under the Rashomon effect across 21 real-world datasets. The findings highlight the trade-offs in data-centric AI approaches, revealing that while filtering can enhance generalization, certain balancing methods may exacerbate predictive multiplicity, especially in complex datasets.
-
-	<font color="red">#Rashomon</font>'
+	<font color="red">#Rashomon</font> <font color="#00008B">#AutoML</font>'
 date: 2025-05-08
 venue: 'Information Fusion'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1566253525003161'
