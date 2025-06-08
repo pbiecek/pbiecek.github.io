@@ -17,14 +17,14 @@ My personal mission is to enhance human capabilities by supporting them through 
 
 I lead [MI2.AI](https://MI2.AI) group of model science enthusiasts, mostly from Math and Computer Science departments from University of Warsaw or Warsaw University of Technology. Together we create tools, try new methods and look for interesting opportunities to squeeze useful information from vast amount of data.
 
-Current and former senior members (see the team's website for a complete current list): 
+Current and former senior members (see the [team's website for a complete current list](https://www.mi2.ai/the-team.html)): 
 
-- [Hubert Baniecki](https://www.linkedin.com/in/hbaniecki/) expected defense in 2026
-- [Paulina Tomaszewska](https://www.linkedin.com/in/paulina-tomaszewska-nn/) expected defense in 2026
+- [Hubert Baniecki](https://www.linkedin.com/in/hbaniecki/) expected PhD defense in 2026
+- [Paulina Tomaszewska](https://www.linkedin.com/in/paulina-tomaszewska-nn/) expected PhD defense in 2026
 - [Wiktoria Mieleszczenko-Kowszewicz](https://www.linkedin.com/in/wiktoriakowszewicz/) postdoc in [HOMER](https://www.mi2.ai/research-grants.html#homer-2020-2025)
 - [Katarzyna Woznica](https://www.linkedin.com/in/woznicak/) completed PhD in 2025 "Towards Trustworthy Automated Data Science"
-- [Krzysztof Kotlarz](https://www.linkedin.com/in/krzysztof-kotlarz-5a24bb236/) completed PhD in 2025 "The application of deep learning methods in the analysis of livestock genomes"
 - [Katarzyna Kobylińska](https://www.linkedin.com/in/katarzyna-kobyli%C5%84ska-87a1b8a4/) completed PhD in 2025 "Explainable machine learning for tabular data with examples of medical applications"
+- [Krzysztof Kotlarz](https://www.linkedin.com/in/krzysztof-kotlarz-5a24bb236/) completed PhD in 2025 "The application of deep learning methods in the analysis of livestock genomes"
 - [Weronika Hryniewska-Guzik](https://www.linkedin.com/in/hryniewska/) completed PhD in 2025 "A multi-level perspective on the deep learning models and human-oriented explanations with applications to medical images"
 - [Mustafa Cavus](https://www.linkedin.com/in/mustafacavusphd/) postdoc in [HOMER](https://www.mi2.ai/research-grants.html#homer-2020-2025)
 - [Barbara Rychalska](https://www.linkedin.com/in/barbara-rychalska/) completed PhD in 2023 "A Multimodal and Interpretable Recommender System for Massive Datasets"
