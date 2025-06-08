@@ -13,28 +13,35 @@ redirect_from:
 My personal mission is to enhance human capabilities by supporting them through access to data-driven and knowledge-based predictions. I execute it by developing methods and tools for responsible machine learning, trustworthy artificial intelligence and reliable software engineering.
 
 
-## Academic background
+## MI^2 research group
 
-I work as a full professor at [MiNI@Warsaw University of Technology](http://mini.pw.edu.pl) and  [MIM@Univeristy of Warsaw](http://mimuw.edu.pl). 
+I lead [MI2.AI](https://MI2.AI) group of model science enthusiasts, mostly from Math and Computer Science departments from University of Warsaw or Warsaw University of Technology. Together we create tools, try new methods and look for interesting opportunities to squeeze useful information from vast amount of data.
 
-I graduated in mathematical statistics (PhD, MSc, BEng) at [PAM@WUST](http://wmat.pwr.edu.pl/en/) and software engineering (MSc, BEng) at [CSM@WUST](http://wiz.pwr.edu.pl/en/).
+Current and former senior members (see the team's website for a complete current list): 
 
-More in [my CV](http://biecek.pl/CV).
+- [Hubert Baniecki](https://www.linkedin.com/in/hbaniecki/) expected defense in 2026
+- [Paulina Tomaszewska](https://www.linkedin.com/in/paulina-tomaszewska-nn/) expected defense in 2026
+- [Wiktoria Mieleszczenko-Kowszewicz](https://www.linkedin.com/in/wiktoriakowszewicz/) postdoc in [HOMER](https://www.mi2.ai/research-grants.html#homer-2020-2025)
+- [Katarzyna Woznica](https://www.linkedin.com/in/woznicak/) completed PhD in 2025 "Towards Trustworthy Automated Data Science"
+- [Krzysztof Kotlarz](https://www.linkedin.com/in/krzysztof-kotlarz-5a24bb236/) completed PhD in 2025 "The application of deep learning methods in the analysis of livestock genomes"
+- [Katarzyna Kobylińska](https://www.linkedin.com/in/katarzyna-kobyli%C5%84ska-87a1b8a4/) completed PhD in 2025 "Explainable machine learning for tabular data with examples of medical applications"
+- [Weronika Hryniewska-Guzik](https://www.linkedin.com/in/hryniewska/) completed PhD in 2025 "A multi-level perspective on the deep learning models and human-oriented explanations with applications to medical images"
+- [Mustafa Cavus](https://www.linkedin.com/in/mustafacavusphd/) postdoc in [HOMER](https://www.mi2.ai/research-grants.html#homer-2020-2025)
+- [Barbara Rychalska](https://www.linkedin.com/in/barbara-rychalska/) completed PhD in 2023 "A Multimodal and Interpretable Recommender System for Massive Datasets"
+- [Tomasz Stanislawek](https://www.linkedin.com/in/tomasz-stanis%C5%82awek-91092729/) completed PhD in 2021 "Extraction of information from graphic-rich documents"
 
 
-## Interests
 
-I am interested in predictive modeling of large and complex data, data visualization and model interpretability.
-My main research project is [DrWhy.AI](http://drwhy.ai) - tools and methods for exploration, explanation and debugging of predictive models.
-Other research activities are focused on applications, mainly high-throughput genetic profiling in oncology. 
-Also I'm interested in evidence based education, evidence based medicine, general machine learning and statistical software engineering (an R enthusiast).
-Big believer of [data-literacy](http://betabit.wiki).
+## Short Bio
 
-## MI^2DataLab
+Przemysław Biecek, PhD, is a Full Professor at both the Warsaw University of Technology and the University of Warsaw, specializing in mathematical statistics, machine learning, and explainable artificial intelligence (XAI). He leads the [MI2.AI](https://MI2.AI) group (read "M-I-square"), which focuses on developing tools and methods for responsible machine learning, with applications spanning biomedicine, computational oncology, space technologies, and other frontier domains.
 
-I lead MI^2 group of data enthusiasts, mostly MSc and PhD students. People here are from Math and Computer Science departments from University of Warsaw or Warsaw University of Technology. Together we create tools, try new methods and look for interesting opportunities to squeeze useful information from vast amount of data.
+Among his most notable contributions are the [DrWhy.AI](https://drwhy.ai) framework and the DALEX package, widely used for model interpretability, validation and control. His research bridges statistical rigor with real-world impact, aiming to improve human decision-making through transparent, trustworthy AI systems.
 
-Find out about the team, projects and initiatives at [MI2.AI](https://mi2.ai/).
+Prof. Biecek has collaborated with global organizations such as Samsung, IBM, Disney, and Netezza, and is the founder of Solutions42.ai — a company committed to deploying responsible AI solutions. A strong advocate for data literacy and open science, he actively contributes to the open-source community and promotes evidence-based approaches in artificial intelligence. His work has been recognized at leading conferences, including ICML, CVPR, ECCV, AAAI, ECML, and ECAI.
+
+More in the [CV](http://biecek.pl/CV/) (may not be up to date).
+
 
 ## Solutions42.ai
 
@@ -49,5 +56,5 @@ If you would like to discuss a possible collaboration, feel free to contact me.
 
 ## Attitude
 
-I am a data-driven person got it from my advisors. My PhD advisor in math was [Witold Klonecki](http://www.ibspan.waw.pl/komisja.statystyki/wspomnienia/Klonecki.pdf). His PhD advisor was [Julian Perkal](https://pl.wikipedia.org/wiki/Julian_Perkal). And his PhD advisor was [Hugo Steinhaus](https://pl.wikipedia.org/wiki/Hugo_Steinhaus). And his advisor was [David Hilbert](https://en.wikipedia.org/wiki/David_Hilbert). My PhD advisor in biology was [Stanislaw Cebrat](https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Cebrat).
+I am a data-driven person got it from my mentors. My PhD advisor in math was [Witold Klonecki](http://www.ibspan.waw.pl/komisja.statystyki/wspomnienia/Klonecki.pdf). His PhD advisor was [Julian Perkal](https://pl.wikipedia.org/wiki/Julian_Perkal). And his PhD advisor was [Hugo Steinhaus](https://pl.wikipedia.org/wiki/Hugo_Steinhaus). And his advisor was [David Hilbert](https://en.wikipedia.org/wiki/David_Hilbert). My PhD advisor in biology was [Stanislaw Cebrat](https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Cebrat).
 

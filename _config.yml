@@ -22,24 +22,25 @@ repository               : "pbiecek/pbiecek.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Przemysław Biecek"
+  name             : #"Przemysław Biecek"
   pronouns         : # example: "he/him"  
   bio              : "I mentor people, develop methods, build tools, and foster a culture that enables credible artificial intelligence."
-  location         : "Warsaw.Poland.Europe"
-  employer         : "MI2.AI &#64; WUT/UoW"
+  location         : #"Warsaw.Poland.Europe"
+  employer         : "<a href='https://mi2.ai/'>MI2.AI</a>"
   uri              : # "https://mi2.ai/"
-  email            : "przemyslaw.biecek at gmail.com" 
+  email            : #"przemyslaw.biecek at gmail.com" 
+
+  # Repositories and software development
+  linkedin         : "pbiecek"
+  github           : "pbiecek"
 
   # Academic websites
   googlescholar    : "https://scholar.google.pl/citations?user=Af0O75cAAAAJ"
   orcid            : "https://orcid.org/0000-0001-8423-1823"
   arxiv            : "http://arxiv.org/a/biecek_p_1"
 
-  # Repositories and software development
-  github           : "pbiecek"
 
   # Social media
-  linkedin         : "pbiecek"
   medium           : # URL
   twitter          : "PrzeBiec"
   wikipedia        : # Username
