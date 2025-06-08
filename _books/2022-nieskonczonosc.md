@@ -1,10 +1,10 @@
 ---
 title: "W pogoni za nieskończonością. Szeregi"
 collection: Books
-icon: "https://github.com/BetaAndBit/Szeregi/blob/main/intro.png"
+icon: "https://pbiecek.github.io/images/icon-book-nieskonczonosc.png"
 permalink: /books/2022-nieskonczonosc
-excerpt: "Discover! Reveal! Explain! These three roles can be fulfilled by good statistical graphics. Good means understandable, faithful to the data, aesthetic. How to create such graphics? A collection of essays on the art of displaying data systematises knowledge useful in designing and producing good data visualisations. It is not easy. On the one hand, we can fall into the trap of a colourful mush full of numbers, which is sometimes proudly called infographics. On the other hand, we can fall into the trap of graphics that perfectly reproduce the complexity of numbers, and thus completely incomprehensible. Somewhere in the middle is a graphic that explains, that informs, that is aesthetically pleasing and informative."
-paperurl-pl: 'https://betaandbit.github.io/Szeregi//'
+excerpt: "Join Beta, Bit, and their dad as they climb a mountain—and stumble into a mathematical adventure filled with paradoxes, logic puzzles, and the mystery of infinity. With humor and vivid illustrations, this comic turns ancient dilemmas like Zeno’s paradoxes into exciting, accessible explorations of series and limits."
+paperurl-pl: 'https://betaandbit.github.io/Szeregi/'
 date: 2022-01-01
 ---
 
@@ -29,6 +29,6 @@ Gdzie ciekawość spotyka się z rygorem, a zabawa z matematyką.
 Od dzielenia czekolady w nieskończoność po dogonienie żółwi - ta historia sprytnie łączy komiksową fabułę z precyzyjnymi spostrzeżeniami matematycznymi. Idealna dla ciekawskich umysłów w wieku od 12 do 112 lat, In Pursuit of Infinity sprawia, że abstrakcyjna matematyka jest nie tylko zrozumiała, ale także naprawdę zachwycająca.
 
 
-![Cover](https://github.com/BetaAndBit/Szeregi/blob/main/intro.png)
+![Cover](https://pbiecek.github.io/images/cover-book-nieskonczonosc.pngg)
 
 
