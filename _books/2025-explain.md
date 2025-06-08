@@ -4,7 +4,7 @@ collection: Books
 icon: "https://pbiecek.github.io/images/icon-book-explain.png"
 permalink: /books/2025-explain
 excerpt: "A bold comic journey through the world of AI transparency! Join Beta and Bit as they show why post-hoc explanations matter — from Berlin to London, from bias detection to scientific discovery. Insightful, witty, and visually stunning. We must explain. We will explain!"
-paperurl-pl: 'https://betaandbit.github.io/WeMustExplain/'
+paperurl: 'https://betaandbit.github.io/WeMustExplain/'
 date: 2025-05-01
 ---
 

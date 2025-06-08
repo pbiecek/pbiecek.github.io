@@ -22,9 +22,9 @@ repository               : "pbiecek/pbiecek.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Przemysław Biecek <br/> [p-sh-eh-m-eh-k]"
+  name             : "Przemysław Biecek"
   pronouns         : # example: "he/him"  
-  bio              : "I educate people, develop methods and build tools to foster trustworthy and reliable artificial intelligence."
+  bio              : "I mentor people, develop methods, build tools, and foster a culture that enables credible artificial intelligence."
   location         : "Warsaw.Poland.Europe"
   employer         : "MI2.AI &#64; WUT/UoW"
   uri              : # "https://mi2.ai/"
