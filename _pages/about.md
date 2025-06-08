@@ -15,7 +15,7 @@ My personal mission is to enhance human capabilities by supporting them through 
 
 ## MI^2 research group
 
-I lead [MI2.AI](https://MI2.AI) group of model science enthusiasts, mostly from Math and Computer Science departments from University of Warsaw or Warsaw University of Technology. Together we create tools, try new methods and look for interesting opportunities to squeeze useful information from vast amount of data.
+I lead [MI2.AI](https://MI2.AI) (read "M-I-square") group of model science enthusiasts, mostly from Math and Computer Science departments from University of Warsaw or Warsaw University of Technology. Together we create tools, try new methods and look for interesting opportunities to squeeze useful information from vast amount of data.
 
 Current and former senior members (see the [team's website for a complete current list](https://www.mi2.ai/the-team.html)): 
 
@@ -34,7 +34,7 @@ Current and former senior members (see the [team's website for a complete curren
 
 ## Short Bio
 
-Przemysław Biecek, PhD, is a Full Professor at both the Warsaw University of Technology and the University of Warsaw, specializing in mathematical statistics, machine learning, and explainable artificial intelligence (XAI). He leads the [MI2.AI](https://MI2.AI) group (read "M-I-square"), which focuses on developing tools and methods for responsible machine learning, with applications spanning biomedicine, computational oncology, space technologies, and other frontier domains.
+Przemysław Biecek, PhD, is a Full Professor at both the Warsaw University of Technology and the University of Warsaw, specializing in mathematical statistics, machine learning, and explainable artificial intelligence (XAI). He leads the [MI2.AI](https://MI2.AI) group, which focuses on developing tools and methods for responsible machine learning, with applications spanning biomedicine, computational oncology, space technologies, and other frontier domains.
 
 Among his most notable contributions are the [DrWhy.AI](https://drwhy.ai) framework and the DALEX package, widely used for model interpretability, validation and control. His research bridges statistical rigor with real-world impact, aiming to improve human decision-making through transparent, trustworthy AI systems.
 
