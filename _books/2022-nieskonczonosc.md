@@ -1,5 +1,5 @@
 ---
-title: "W pogoni za nieskończonością. Szeregi"
+title: "Chasing Infinity. Series/W pogoni za nieskończonością. Szeregi"
 collection: Books
 icon: "https://pbiecek.github.io/images/icon-book-nieskonczonosc.png"
 permalink: /books/2022-nieskonczonosc
@@ -29,6 +29,6 @@ Gdzie ciekawość spotyka się z rygorem, a zabawa z matematyką.
 Od dzielenia czekolady w nieskończoność po dogonienie żółwi - ta historia sprytnie łączy komiksową fabułę z precyzyjnymi spostrzeżeniami matematycznymi. Idealna dla ciekawskich umysłów w wieku od 12 do 112 lat, In Pursuit of Infinity sprawia, że abstrakcyjna matematyka jest nie tylko zrozumiała, ale także naprawdę zachwycająca.
 
 
-![Cover](https://pbiecek.github.io/images/cover-book-nieskonczonosc.pngg)
+![Cover](https://pbiecek.github.io/images/cover-book-nieskonczonosc.png)
 
 
