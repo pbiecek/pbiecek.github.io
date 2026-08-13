@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pbiecek.github.io/sitemap.xml

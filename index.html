@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Przemysław Biecek</title>
+<meta name="description" content="Przemysław Biecek — Full Professor at the University of Warsaw, Director of the Centre for Credible AI at Warsaw University of Technology, head of MI².AI. Research on Model Science: verification, explanation, steering and refinement of AI systems.">
+<meta name="author" content="Przemysław Biecek">
+<meta name="theme-color" content="#fcfcfb">
+<link rel="canonical" href="https://pbiecek.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Przemysław Biecek">
+<meta property="og:description" content="Building the methods and tools that make AI systems verifiable, explainable and controllable.">
+<meta property="og:url" content="https://pbiecek.github.io/">
+<meta property="og:image" content="https://pbiecek.github.io/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230d6a78'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='54' fill='%23fff' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+
+<script>(function(){try{var s=localStorage.getItem('pb-theme');var t=s||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Przemysław Biecek",
+  "url": "https://pbiecek.github.io/",
+  "jobTitle": "Full Professor; Director of the Centre for Credible AI",
+  "affiliation": [
+    {"@type": "Organization", "name": "University of Warsaw"},
+    {"@type": "Organization", "name": "Warsaw University of Technology"}
+  ],
+  "knowsAbout": ["Model Science", "Explainable AI", "Interpretability", "Trustworthy machine learning"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=Af0O75cAAAAJ",
+    "https://orcid.org/0000-0001-8423-1823",
+    "https://github.com/pbiecek",
+    "https://www.linkedin.com/in/pbiecek/",
+    "https://mi2.ai/"
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#research">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#top">Przemysław&nbsp;Biecek</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#software">Software</a>
+        <a href="#books">Books</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="icon-btn" data-theme-toggle type="button" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" data-nav-toggle type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Model Science · Explainable AI</span>
+        <h1>Making AI systems<br>verifiable, explainable<br>and controllable.</h1>
+        <div class="prose">
+          <p class="lead">
+            I am a Full Professor at the University of Warsaw and serve as Director of the Centre for Credible AI at Warsaw University of Technology.
+            I lead a research group working at the intersection of mathematics and computer science focused on deeper understanding of AI models.</p>
+          <p class="lead">My work asks a question benchmarks cannot answer: <em>what is actually going on inside a model, and can we trust it where it will be deployed?</em> Over the last decade this has meant new explanation methods, adversarial analysis of those methods, open-source tooling used by tens of thousands of practitioners, and a research programme I call <a class="link" href="#research">Model Science</a>.</p>
+        </div>
+
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#research">Research programme</a>
+          <a class="btn" href="#publications">Selected publications</a>
+          <a class="btn" href="mailto:przemyslaw.biecek@gmail.com">Email me</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://mi2.ai/" rel="noopener">MI².AI group</a>
+          <a href="https://scholar.google.com/citations?user=Af0O75cAAAAJ" rel="noopener">Scholar</a>
+          <a href="https://arxiv.org/a/biecek_p_1.html" rel="noopener">arXiv</a>
+          <a href="https://orcid.org/0000-0001-8423-1823" rel="noopener">ORCID</a>
+          <a href="https://dblp.org/pid/68/2414.html" rel="noopener">DBLP</a>
+          <a href="https://github.com/pbiecek" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/pbiecek/" rel="noopener">LinkedIn</a>
+        </div>
+
+        <blockquote class="quote" style="margin:34px 0 0">AI is broken,<br>and we are here to fix it.</blockquote>
+      </div>
+
+      <aside class="hero-aside">
+        <img class="portrait" width="400" height="500" src="assets/photo.jpg" alt="Przemysław Biecek"
+             onerror="this.onerror=null;this.src='assets/portrait-placeholder.svg';">
+        <ul class="affil">
+          <li><strong>Full Professor</strong><br>University of Warsaw, Faculty of Mathematics, Informatics and Mechanics</li>
+          <li><strong>Director, Centre for Credible AI</strong><br>Warsaw University of Technology</li>
+          <li><strong>Head of MI².AI</strong><br>Research group on responsible &amp; explainable ML</li>
+          <li><strong>Founder</strong><br>Solutions42.ai · Smarter Poland Foundation</li>
+        </ul>
+      </aside>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= RESEARCH ================= -->
+<section class="tinted" id="research">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">The research programme</span>
+        <h2>Model Science</h2>
+      </div>
+      <a class="arrow-link" href="https://arxiv.org/abs/2606.01189" rel="noopener">Read the agenda paper</a>
+    </div>
+
+    <div class="prose" style="margin-bottom:32px">
+      <p class="lead">Hundreds of millions of people now depend on models that essentially no one understands. Benchmarks saturate faster than new ones can be written, and a high leaderboard position tells you remarkably little about whether a system will hold up in a hospital, a courtroom, or a bank.</p>
+      <p>Model Science treats a trained model the way other mature disciplines treat their objects of study: as something to be probed, described, catalogued and reasoned about empirically. Cognitive science combines complementary analytical perspectives; neuroscience learns from deep single-case studies that population averages hide; medicine separates diagnosis, treatment and prevention into distinct but connected institutions; agriculture built shared infrastructure so that results accumulate instead of evaporating. AI research has none of this yet.</p>
+      <p>With <a class="link" href="https://ebooks.iospress.nl/doi/10.3233/FAIA250784" rel="noopener">Wojciech Samek (ECAI 2025)</a> and in the fuller <a class="link" href="https://arxiv.org/abs/2606.01189" rel="noopener">2026 agenda paper</a>, I organise the field around four questions.</p>
+    </div>
+
+    <div class="grid grid-2 reveal">
+      <article class="card pillar">
+        <span class="num">01</span>
+        <span class="verb">Verify</span>
+        <p class="q">Does the model perform reliably where it will actually be deployed?</p>
+        <p>Benchmarking is necessary and nowhere near sufficient. This pillar covers context-aware evaluation protocols, red teaming, auditing, robustness under distribution shift, and the systematic study of edge cases. Our work here includes red-teaming vision foundation models and analysing predictive multiplicity — the uncomfortable fact that many equally accurate models disagree on individual cases.</p>
+      </article>
+      <article class="card pillar">
+        <span class="num">02</span>
+        <span class="verb">Explore</span>
+        <p class="q">What computational mechanisms generate the output?</p>
+        <p>Attribution methods, concept-level analysis, sparse autoencoders, counterfactual explanations, and interactive tools that let a human actually interrogate a model. The framing matters: explanations exist to <em>question</em> a model, not to justify it after the fact — a position I have argued at ICML.</p>
+      </article>
+      <article class="card pillar">
+        <span class="num">03</span>
+        <span class="verb">Steer</span>
+        <p class="q">How do we change a trained model's behaviour without retraining it?</p>
+        <p>Once we can name what a model has internalised, we can intervene on it. Feature-level editing, representation steering and alignment techniques let us move a deployed system toward the behaviour we want — cheaply, reversibly, and with an audit trail.</p>
+      </article>
+      <article class="card pillar">
+        <span class="num">04</span>
+        <span class="verb">Refine</span>
+        <p class="q">Which training decisions produced this behaviour?</p>
+        <p>The loop closes here: connecting data, objectives and fine-tuning procedures to emergent misalignment, catastrophic forgetting and reward hacking. Understanding a model is only half the point if nothing flows back into how the next one is built.</p>
+      </article>
+    </div>
+
+    <div class="prose" style="margin-top:34px">
+      <h3 style="margin-bottom:10px">The missing infrastructure</h3>
+      <p>None of this scales without shared plumbing. Model Science calls for three things the field still lacks: <strong>dataset catalogues</strong> built on FAIR principles so that claims can be stress-tested across dozens of datasets rather than one; <strong>model catalogues</strong> that record lineage and inherited properties, because models are increasingly descendants rather than originals; and <strong>shared findings repositories</strong> — something like MITRE ATT&amp;CK for model behaviour — so that a failure mode discovered once is known to everyone rather than rediscovered a hundred times.</p>
+    </div>
+
+    <h3 style="margin:46px 0 18px">Active research directions</h3>
+    <div class="grid grid-3 reveal">
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Foundation models</span></div>
+        <h3>Interpreting large multimodal models</h3>
+        <p>Hierarchical sparse autoencoders that pull interpretable concepts out of CLIP-class models at a state-of-the-art sparsity/fidelity trade-off, and the question of what a "concept" in such a model even is.</p>
+      </article>
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">XAI methods</span></div>
+        <h3>Counterfactual explanation</h3>
+        <p>Region-constrained visual counterfactuals, model-agnostic symbolic counterfactuals for time series, and global counterfactual directions — moving from "what mattered" to "what would have to change".</p>
+      </article>
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Robustness</span></div>
+        <h3>Adversarial analysis of explanations</h3>
+        <p>Explanations can be attacked. We showed partial dependence can be fooled by data poisoning, mapped the attack/defence landscape in a widely cited survey, and study when global feature effects can be trusted at all.</p>
+      </article>
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Medicine</span></div>
+        <h3>Credible AI in healthcare</h3>
+        <p>Interpretable time-to-event prediction, explanations for 3D segmentation models, radiomics for treatment-outcome prediction, and open clinical datasets — where a wrong model has a name attached to it.</p>
+      </article>
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Multiplicity</span></div>
+        <h3>Rashomon sets &amp; fairness</h3>
+        <p>Many models fit the data equally well and behave very differently. We use that set — rather than a single winner — to reason about stability, bias and the real uncertainty behind a prediction.</p>
+      </article>
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Policy</span></div>
+        <h3>Standards &amp; the information ecosystem</h3>
+        <p>Detection obligations for generative models, resistance against manipulative AI, and the attribution of ideas in AI research. Published in <em>Nature Human Behaviour</em>, <em>Ethics and Information Technology</em>, and at ECAI.</p>
+      </article>
+    </div>
+
+    <h3 style="margin:46px 0 14px">The MI².AI group</h3>
+    <div class="prose" style="margin-bottom:22px">
+      <p>MI².AI brings together researchers from the mathematics and computer science faculties of the University of Warsaw and Warsaw University of Technology. The group is deliberately mixed, statisticians, ML researchers, clinicians' collaborators, because the questions do not respect departmental boundaries.</p>
+    </div>
+    <div class="people reveal">
+      <span class="person">Hubert Baniecki <em>PhD 2026</em></span>
+      <span class="person">Paulina Tomaszewska <em>PhD 2026</em></span>
+<!--      <span class="person">Wiktoria Mieleszczenko-Kowszewicz <em>postdoc</em></span> -->
+      <span class="person">Katarzyna Woźnica <em>PhD 2025</em></span>
+      <span class="person">Katarzyna Kobylińska <em>PhD 2025</em></span>
+      <span class="person">Krzysztof Kotlarz <em>PhD 2025</em></span>
+      <span class="person">Weronika Hryniewska-Guzik <em>PhD 2025</em></span>
+<!--      <span class="person">Mustafa Cavus <em>postdoc</em></span> -->
+      <span class="person">Barbara Rychalska <em>PhD 2023</em></span>
+      <span class="person">Tomasz Stanisławek <em>PhD 2021</em></span>
+    </div>
+    <div class="btn-row">
+      <a class="btn" href="https://mi2.ai/" rel="noopener">Group website</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PUBLICATIONS ================= -->
+<section id="publications">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Publications</span>
+        <h2>Selected publications</h2>
+      </div>
+      <a class="arrow-link" href="https://scholar.google.com/citations?user=Af0O75cAAAAJ" rel="noopener">Full record on Scholar</a>
+    </div>
+
+    <div class="prose" style="margin-bottom:26px">
+      <p class="lead">A curated selection from 200+ publications, organised by theme rather than by count. The complete and continuously updated record lives on <a class="link" href="https://scholar.google.com/citations?user=Af0O75cAAAAJ" rel="noopener">Google Scholar</a> and <a class="link" href="https://dblp.org/pid/68/2414.html" rel="noopener">DBLP</a>.</p>
+    </div>
+
+    <div class="filters" data-filter-bar role="group" aria-label="Filter publications by theme">
+      <button class="filter" data-filter="all" aria-pressed="true" type="button">All</button>
+      <button class="filter" data-filter="position" aria-pressed="false" type="button">Position &amp; agenda</button>
+      <button class="filter" data-filter="foundation" aria-pressed="false" type="button">Foundation models</button>
+      <button class="filter" data-filter="xai" aria-pressed="false" type="button">XAI methods</button>
+      <button class="filter" data-filter="robustness" aria-pressed="false" type="button">Robustness</button>
+      <button class="filter" data-filter="medicine" aria-pressed="false" type="button">Medicine</button>
+      <button class="filter" data-filter="fairness" aria-pressed="false" type="button">Fairness &amp; multiplicity</button>
+      <button class="filter" data-filter="policy" aria-pressed="false" type="button">Policy</button>
+      <button class="filter" data-filter="software" aria-pressed="false" type="button">Software papers</button>
+    </div>
+    <p class="tiny" data-filter-count style="margin-bottom:18px"></p>
+
+    <ul class="pubs">
+
+      <li class="pub" data-tags="position foundation">
+        <div class="pub-year">2026</div>
+        <div>
+          <a class="pub-title" href="https://arxiv.org/abs/2606.01189" rel="noopener">The Case for Model Science: Verify, Explore, Steer, Refine</a>
+          <div class="pub-meta"><span class="pub-venue">arXiv preprint</span> — a framework, an infrastructure proposal and a research agenda for the empirical study of AI models.</div>
+          <div class="tags"><span class="tag tag-accent">Model Science</span><span class="tag">Agenda</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="position">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://ebooks.iospress.nl/doi/10.3233/FAIA250784" rel="noopener">Model Science: getting serious about verification, explanation and control of AI systems</a>
+          <div class="pub-meta"><span class="pub-venue">ECAI</span> — with W. Samek. The four pillars, stated for the first time.</div>
+          <div class="tags"><span class="tag tag-accent">Model Science</span><span class="tag">Position</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="foundation xai">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://arxiv.org/abs/2502.20578" rel="noopener">Interpreting CLIP with Hierarchical Sparse Autoencoders</a>
+          <div class="pub-meta"><span class="pub-venue">ICML</span> — state-of-the-art sparsity/fidelity trade-off; extracts 100+ semantic concepts from vision–language representations.</div>
+          <div class="tags"><span class="tag">Sparse autoencoders</span><span class="tag">Vision–language</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="xai">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://openreview.net/forum?id=LiUfN9h0Lx" rel="noopener">Efficient and Accurate Explanation Estimation with Distribution Compression</a>
+          <div class="pub-meta"><span class="pub-venue">ICLR</span><span class="pub-badge">Spotlight</span> — <em>Compress Then Explain</em>: 2–3× fewer model evaluations at equal explanation quality.</div>
+          <div class="tags"><span class="tag">Attribution</span><span class="tag">Efficiency</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="xai foundation">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://openreview.net/forum?id=gqeXXrIMr0" rel="noopener">Rethinking Visual Counterfactual Explanations Through Region Constraint</a>
+          <div class="pub-meta"><span class="pub-venue">ICLR</span> — region-constrained counterfactuals reach state-of-the-art performance and are far easier to read.</div>
+          <div class="tags"><span class="tag">Counterfactuals</span><span class="tag">Vision</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="xai">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://arxiv.org/abs/2503.22389" rel="noopener">MASCOTS: Model-Agnostic Symbolic Counterfactual Explanations for Time Series</a>
+          <div class="pub-meta"><span class="pub-venue">ECML PKDD</span> — symbolic representations make time-series counterfactuals both faithful and legible.</div>
+          <div class="tags"><span class="tag">Counterfactuals</span><span class="tag">Time series</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="fairness">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003161" rel="noopener">Investigating the impact of balancing, filtering and complexity on predictive multiplicity: a data-centric perspective</a>
+          <div class="pub-meta"><span class="pub-venue">Information Fusion</span></div>
+          <div class="tags"><span class="tag">Predictive multiplicity</span><span class="tag">Data-centric</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="medicine xai">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/10943755" rel="noopener">Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models</a>
+          <div class="pub-meta"><span class="pub-venue">WACV</span></div>
+          <div class="tags"><span class="tag">Segmentation</span><span class="tag">Attribution</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="medicine">
+        <div class="pub-year">2025</div>
+        <div>
+          <a class="pub-title" href="https://arxiv.org/abs/2401.10044" rel="noopener">Deep spatial context: when attention-based models meet spatial regression</a>
+          <div class="pub-meta"><span class="pub-venue">AIME</span></div>
+          <div class="tags"><span class="tag">Spatial models</span><span class="tag">Medicine</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="position xai foundation">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://openreview.net/forum?id=6UGSDDPkJw" rel="noopener">Position: Do Not Explain Vision Models Without Context</a>
+          <div class="pub-meta"><span class="pub-venue">ICML</span> — spatial and semantic context is not optional in visual explanation.</div>
+          <div class="tags"><span class="tag tag-accent">Position</span><span class="tag">Vision</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="position xai">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://openreview.net/forum?id=ooikIHLHCs" rel="noopener">Position: Explain to Question not to Justify</a>
+          <div class="pub-meta"><span class="pub-venue">ICML</span> — the argument that XAI should interrogate models rather than defend their outputs.</div>
+          <div class="tags"><span class="tag tag-accent">Position</span><span class="tag">Foundations of XAI</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="robustness xai">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000812" rel="noopener">Adversarial attacks and defenses in explainable artificial intelligence: a survey</a>
+          <div class="pub-meta"><span class="pub-venue">Information Fusion</span> — the reference survey on the fragility of explanation methods.</div>
+          <div class="tags"><span class="tag">Survey</span><span class="tag">Adversarial</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="robustness foundation">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://ieeexplore.ieee.org/document/10678636" rel="noopener">Red-Teaming Segment Anything Model</a>
+          <div class="pub-meta"><span class="pub-venue">CVPR Workshops</span> — systematic failure hunting in a widely deployed vision foundation model.</div>
+          <div class="tags"><span class="tag">Red teaming</span><span class="tag">Foundation models</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="robustness xai">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://link.springer.com/chapter/10.1007/978-3-031-70344-7_8" rel="noopener">On the Robustness of Global Feature Effect Explanations</a>
+          <div class="pub-meta"><span class="pub-venue">ECML PKDD</span></div>
+          <div class="tags"><span class="tag">Robustness</span><span class="tag">Global effects</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="fairness">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://www.tandfonline.com/doi/full/10.1080/10618600.2024.2344616" rel="noopener">Performance Is Not Enough: The Story Told by a Rashomon Quartet</a>
+          <div class="pub-meta"><span class="pub-venue">Journal of Computational and Graphical Statistics</span> — four models, identical accuracy, four incompatible stories.</div>
+          <div class="tags"><span class="tag">Rashomon set</span><span class="tag">Visualization</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="fairness medicine">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/10745964" rel="noopener">Exploration of the Rashomon Set Assists Trustworthy Explanations for Medical Data</a>
+          <div class="pub-meta"><span class="pub-venue">IEEE Journal of Biomedical and Health Informatics</span></div>
+          <div class="tags"><span class="tag">Rashomon set</span><span class="tag">Medicine</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="medicine xai">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://www.sciencedirect.com/science/article/abs/pii/S0933365724002689" rel="noopener">Interpretable machine learning for time-to-event prediction in medicine and healthcare</a>
+          <div class="pub-meta"><span class="pub-venue">Artificial Intelligence in Medicine</span></div>
+          <div class="tags"><span class="tag">Survival analysis</span><span class="tag">Medicine</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="medicine">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://pubs.rsna.org/doi/full/10.1148/ryai.240296" rel="noopener">WAW-TACE: a hepatocellular carcinoma multiphase CT dataset with segmentations, radiomics features and clinical data</a>
+          <div class="pub-meta"><span class="pub-venue">Radiology: Artificial Intelligence</span> — an open clinical dataset, released so that findings can accumulate.</div>
+          <div class="tags"><span class="tag">Dataset</span><span class="tag">Radiology</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="medicine foundation">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://link.springer.com/chapter/10.1007/978-3-031-72111-3_65" rel="noopener">Swin SMT: Global Sequential Modeling for Enhancing 3D Medical Image Segmentation</a>
+          <div class="pub-meta"><span class="pub-venue">MICCAI</span></div>
+          <div class="tags"><span class="tag">Segmentation</span><span class="tag">Architecture</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="policy">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://www.nature.com/articles/s41562-024-01833-8" rel="noopener">Protect our environment from information overload</a>
+          <div class="pub-meta"><span class="pub-venue">Nature Human Behaviour</span></div>
+          <div class="tags"><span class="tag">Information ecosystem</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="policy">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://ebooks.iospress.nl/doi/10.3233/FAIA240565" rel="noopener">Resistance Against Manipulative AI: Key Factors and Possible Actions</a>
+          <div class="pub-meta"><span class="pub-venue">ECAI</span></div>
+          <div class="tags"><span class="tag">Manipulation</span><span class="tag">Policy</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="policy">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://link.springer.com/article/10.1007/s10676-024-09795-1" rel="noopener">AI content detection in the emerging information ecosystem: new obligations for media and tech companies</a>
+          <div class="pub-meta"><span class="pub-venue">Ethics and Information Technology</span></div>
+          <div class="tags"><span class="tag">Detection</span><span class="tag">Governance</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="policy">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S1751157724000841" rel="noopener">Big Tech influence over AI research revisited: memetic analysis of attribution of ideas to affiliation</a>
+          <div class="pub-meta"><span class="pub-venue">Journal of Informetrics</span></div>
+          <div class="tags"><span class="tag">Meta-research</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="software medicine">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://doi.org/10.1093/bioinformatics/btad723" rel="noopener">survex: an R package for explaining machine learning survival models</a>
+          <div class="pub-meta"><span class="pub-venue">Bioinformatics</span></div>
+          <div class="tags"><span class="tag">Software</span><span class="tag">Survival analysis</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="software xai">
+        <div class="pub-year">2024</div>
+        <div>
+          <a class="pub-title" href="https://link.springer.com/article/10.1007/s10618-023-00924-w" rel="noopener">The grammar of interactive explanatory model analysis</a>
+          <div class="pub-meta"><span class="pub-venue">Data Mining and Knowledge Discovery</span> — a formal account of how humans and models should take turns.</div>
+          <div class="tags"><span class="tag">Human–model interaction</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="robustness xai">
+        <div class="pub-year">2023</div>
+        <div>
+          <a class="pub-title" href="https://link.springer.com/chapter/10.1007/978-3-031-26409-2_8" rel="noopener">Fooling Partial Dependence via Data Poisoning</a>
+          <div class="pub-meta"><span class="pub-venue">ECML PKDD</span> — a widely used explanation method, broken on purpose.</div>
+          <div class="tags"><span class="tag">Adversarial</span><span class="tag">Global effects</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="medicine xai">
+        <div class="pub-year">2023</div>
+        <div>
+          <a class="pub-title" href="https://www.sciencedirect.com/science/article/pii/S0950705122013302" rel="noopener">SurvSHAP(t): time-dependent explanations of machine learning survival models</a>
+          <div class="pub-meta"><span class="pub-venue">Knowledge-Based Systems</span></div>
+          <div class="tags"><span class="tag">Survival analysis</span><span class="tag">SHAP</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="policy">
+        <div class="pub-year">2023</div>
+        <div>
+          <a class="pub-title" href="https://link.springer.com/article/10.1007/s10676-023-09728-4" rel="noopener">Generative AI models should include detection mechanisms as a condition for public release</a>
+          <div class="pub-meta"><span class="pub-venue">Ethics and Information Technology</span></div>
+          <div class="tags"><span class="tag">Governance</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="fairness software">
+        <div class="pub-year">2022</div>
+        <div>
+          <a class="pub-title" href="https://journal.r-project.org/articles/RJ-2022-019/RJ-2022-019.pdf" rel="noopener">fairmodels: a flexible tool for bias detection, visualization and mitigation in binary classification models</a>
+          <div class="pub-meta"><span class="pub-venue">The R Journal</span></div>
+          <div class="tags"><span class="tag">Fairness</span><span class="tag">Software</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="xai software">
+        <div class="pub-year">2021</div>
+        <div>
+          <a class="pub-title" href="https://ema.drwhy.ai/" rel="noopener">Explanatory Model Analysis: Explore, Explain and Examine Predictive Models</a>
+          <div class="pub-meta"><span class="pub-venue">Chapman &amp; Hall/CRC</span> — with Tomasz Burzykowski. A standard reference for the practice of model explanation.</div>
+          <div class="tags"><span class="tag tag-warm">Book</span><span class="tag">XAI</span></div>
+        </div>
+      </li>
+
+      <li class="pub" data-tags="software xai">
+        <div class="pub-year">2018</div>
+        <div>
+          <a class="pub-title" href="https://www.jmlr.org/papers/v19/18-416.html" rel="noopener">DALEX: explainers for complex predictive models in R</a>
+          <div class="pub-meta"><span class="pub-venue">Journal of Machine Learning Research</span> — the paper behind the DrWhy.AI ecosystem.</div>
+          <div class="tags"><span class="tag">Software</span><span class="tag">Model-agnostic</span></div>
+        </div>
+      </li>
+
+    </ul>
+
+    <p class="tiny" style="margin-top:24px">Selection reflects methodological contribution and venue rather than citation count.</p>
+  </div>
+</section>
+
+<!-- ================= SOFTWARE ================= -->
+<section class="tinted" id="software">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Open source</span>
+        <h2>Methods that ship</h2>
+      </div>
+      <a class="arrow-link" href="https://drwhy.ai/" rel="noopener">drwhy.ai</a>
+    </div>
+
+    <div class="prose" style="margin-bottom:28px">
+      <p class="lead">A method that only exists in a paper is a method almost no one will use. The <strong>DrWhy.AI</strong> ecosystem is built on one idea: a model should be interrogable through a single, consistent interface regardless of what framework trained it. The design has been adopted well beyond our group — DALEX alone has been downloaded millions of times and is taught in courses on several continents.</p>
+    </div>
+
+    <div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/ModelOriented/DALEX" rel="noopener">DALEX</a>
+        <div class="soft-body">
+          <h4>Model-agnostic explanations for R and Python</h4>
+          <p>One explainer object, any model. Variable importance, partial dependence, break-down and SHAP attributions, residual diagnostics — the workhorse of the ecosystem. Published in JMLR.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/ModelOriented/survex" rel="noopener">survex</a>
+        <div class="soft-body">
+          <h4>Explaining survival models</h4>
+          <p>Time-dependent explanations for machine learning survival models, including SurvSHAP(t). Published in <em>Bioinformatics</em>; the reference tool for interpretable time-to-event modelling.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/ModelOriented/fairmodels" rel="noopener">fairmodels</a>
+        <div class="soft-body">
+          <h4>Bias detection, visualisation and mitigation</h4>
+          <p>Checks a classifier against a battery of group-fairness criteria at once, and offers pre-, in- and post-processing mitigation. Published in <em>The R Journal</em>.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/ModelOriented/modelStudio" rel="noopener">modelStudio</a>
+        <div class="soft-body">
+          <h4>Interactive model exploration</h4>
+          <p>Generates a serverless, shareable HTML dashboard from any explainer — the interface layer that turns explanation from a static plot into a conversation with the model.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://arena.drwhy.ai/" rel="noopener">Arena</a>
+        <div class="soft-body">
+          <h4>Side-by-side model comparison</h4>
+          <p>An interactive arena for comparing several models on the same observations — built for the Rashomon-set way of thinking, where the interesting question is where equally good models disagree.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/pbiecek/archivist" rel="noopener">archivist</a>
+        <div class="soft-body">
+          <h4>Storing, restoring and searching R objects</h4>
+          <p>Reproducibility infrastructure: every model, plot and dataset gets an address you can cite and retrieve years later.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin:38px 0 4px">Statistics &amp; open data</h3>
+    <p class="small muted" style="margin-bottom:16px">Earlier packages, still maintained and still downloaded.</p>
+    <div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/kassambara/survminer" rel="noopener">survminer</a>
+        <div class="soft-body">
+          <h4>Drawing survival curves with ggplot2</h4>
+          <p>My most-cited software contribution by a wide margin — a fixture of biomedical papers worldwide.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/pbiecek/intsvy" rel="noopener">intsvy</a>
+        <div class="soft-body">
+          <h4>International assessment data manager</h4>
+          <p>Correct handling of plausible values and replicate weights for PISA, PIAAC, TIMSS and PIRLS — the studies that shape education policy.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/pbiecek/ddst" rel="noopener">ddst</a>
+        <div class="soft-body">
+          <h4>Data-driven smooth tests</h4>
+          <p>A family of goodness-of-fit tests that select their own complexity.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/pbiecek/bgmm" rel="noopener">bgmm</a>
+        <div class="soft-body">
+          <h4>Belief-based Gaussian mixture modelling</h4>
+          <p>Mixture models that incorporate partial, uncertain label information.</p>
+        </div>
+      </div>
+      <div class="soft">
+        <a class="soft-name" href="https://github.com/pbiecek/PISA2012lite" rel="noopener">PISA · PIAAC</a>
+        <div class="soft-body">
+          <h4>OECD studies, ready to analyse</h4>
+          <p>PISA 2000–2012 and PIAAC packaged for R, so that anyone can check what the headlines actually say.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <a class="btn" href="https://github.com/pbiecek" rel="noopener">All repositories on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BOOKS ================= -->
+<section id="books">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Writing</span>
+        <h2>Books</h2>
+      </div>
+      <a class="arrow-link" href="https://betaandbit.github.io/" rel="noopener">Beta &amp; Bit series</a>
+    </div>
+
+    <div class="prose" style="margin-bottom:30px">
+      <p class="lead">Half of these are textbooks and half are comics, and that is deliberate. The people whose lives are shaped by predictive models — clinicians, teachers, regulators, students — are not going to read a NeurIPS paper. All titles are free to read online.</p>
+    </div>
+
+    <div class="grid grid-3 reveal">
+
+      <article class="card book-card">
+        <span class="year">2025</span>
+        <h3>We must explain! We will explain!</h3>
+        <p>A comic journey through AI transparency. Beta and Bit show why post-hoc explanations matter — and where they mislead.</p>
+        <div class="btn-row"><a class="btn" href="https://betaandbit.github.io/WeMustExplain/" rel="noopener">Read free</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2023</span>
+        <h3>The Hitchhiker's Guide to Responsible Machine Learning</h3>
+        <p>Fifty-two pages, one story, and a complete reproducible ML workflow underneath it. Translated into several languages.</p>
+        <div class="btn-row"><a class="btn" href="https://rml.mi2.ai/" rel="noopener">Read free</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2023</span>
+        <h3>Chart Runners</h3>
+        <p>How to build plots that inform rather than impress — for audiences who did not ask for a chart in the first place.</p>
+        <div class="btn-row"><a class="btn" href="https://betaandbit.github.io/Charts/" rel="noopener">Read free</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2022</span>
+        <h3>Chaos Game</h3>
+        <p>Fractals and chaos theory, with worked examples in R, Python and Julia.</p>
+        <div class="btn-row"><a class="btn" href="https://chaosgame.drwhy.ai/" rel="noopener">Read free</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2022</span>
+        <h3>Chasing Infinity</h3>
+        <p>A comic about Zeno's paradoxes, infinite series, and the strange places where intuition fails.</p>
+        <div class="btn-row"><a class="btn" href="https://pbiecek.github.io/books/2022-nieskonczonosc" rel="noopener">Read free</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2021</span>
+        <h3>Explanatory Model Analysis</h3>
+        <p>With Tomasz Burzykowski. A step-by-step treatment of the main methods of explainable machine learning; published by Chapman &amp; Hall/CRC and free online.</p>
+        <div class="btn-row"><a class="btn btn-primary" href="https://ema.drwhy.ai/" rel="noopener">Read free</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2017</span>
+        <h3>Przewodnik po pakiecie R</h3>
+        <p>The Polish-language guide to R — basics, programming, statistics and visualisation. Now in its fourth edition.</p>
+        <div class="btn-row"><a class="btn" href="https://pbiecek.github.io/books/2017-przewodnik-r" rel="noopener">Details</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2017</span>
+        <h3>Eseje o sztuce wizualizacji danych</h3>
+        <p>Essays on the design and aesthetics of data visualisation.</p>
+        <div class="btn-row"><a class="btn" href="https://pbiecek.github.io/books/2017-eseje" rel="noopener">Details</a></div>
+      </article>
+
+      <article class="card book-card">
+        <span class="year">2015</span>
+        <h3>Analiza danych z programem R</h3>
+        <p>An academic textbook on estimation and hypothesis testing, worked through in R.</p>
+        <div class="btn-row"><a class="btn" href="https://pbiecek.github.io/books/2015-analiza-danych" rel="noopener">Details</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEACHING ================= -->
+<section class="tinted" id="teaching">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Teaching &amp; talks</span>
+        <h2>Teaching people to question models</h2>
+      </div>
+      <a class="arrow-link" href="https://github.com/mim-uw" rel="noopener">Course repositories</a>
+    </div>
+
+    <div class="prose" style="margin-bottom:28px">
+      <p class="lead">Every course I run is built around the same conviction: students should leave able to break a model, not only to train one. Course materials — slides, code, projects — are public on GitHub, and the projects frequently turn into papers.</p>
+    </div>
+
+    <div class="grid grid-2 reveal" style="margin-bottom:36px">
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">MSc / PhD</span><span class="tag">University of Warsaw</span></div>
+        <h3>eXplainable Machine Learning</h3>
+        <p>The flagship course. Students work through the modern XAI toolkit — attributions, counterfactuals, concept methods, sparse autoencoders — and then spend the second half of the semester attacking those methods on real models. Assessment is a written model audit, not an exam.</p>
+        <p style="margin-top:12px"><a class="arrow-link" href="https://github.com/mim-uw/eXplainableMachineLearning-2024" rel="noopener">Materials on GitHub</a></p>
+      </article>
+      <article class="card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">MSc</span><span class="tag">Seminar</span></div>
+        <h3>MSc Seminar: Machine Learning</h3>
+        <p>Running continuously since 2017. A reading and research seminar where thesis projects are developed in public, critiqued by peers, and — often enough — pushed to a workshop or conference submission.</p>
+        <p style="margin-top:12px"><a class="arrow-link" href="https://github.com/mim-uw/MachineLearningSeminar" rel="noopener">Seminar repository</a></p>
+      </article>
+    </div>
+
+    <h3 style="margin-bottom:14px">Previously taught</h3>
+    <table class="tbl">
+      <thead>
+        <tr><th>Course</th><th>Topic</th><th>Years</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Data Visualisation Techniques</td><td>Grammar of graphics, perception, narrative visualisation</td><td class="yrs">2014–2019</td></tr>
+        <tr><td>Warsztaty Badawcze / Case Studies</td><td>End-to-end applied projects with external partners</td><td class="yrs">2015–2018</td></tr>
+        <tr><td>Advanced Programming and Data Analysis with R</td><td>Package development, performance, reproducibility</td><td class="yrs">2017–2018</td></tr>
+        <tr><td>Projekt Zespołowy / Team Project</td><td>Team-built data products</td><td class="yrs">2017–2019</td></tr>
+        <tr><td>Linear and Mixed Models</td><td>Fixed and random effects, applied inference</td><td class="yrs">2015–2017</td></tr>
+        <tr><td>Statistics II: Exploration, Prediction and Verification</td><td>Statistical learning foundations</td><td class="yrs">2015–2017</td></tr>
+        <tr><td>Programowanie i Wizualizacja z R</td><td>R programming and visualisation</td><td class="yrs">2016–2018</td></tr>
+        <tr><td>R and Big Data</td><td>Out-of-memory and distributed data analysis in R</td><td class="yrs">2014–2016</td></tr>
+        <tr><td>Data Products</td><td>Building tools other people can use</td><td class="yrs">2015–2016</td></tr>
+      </tbody>
+    </table>
+
+    <h3 style="margin:46px 0 18px">Talks &amp; tutorials</h3>
+    <div class="prose" style="margin-bottom:22px">
+      <p>I give roughly a dozen invited talks a year, to audiences that range from ML conferences to hospital boards to journalists. Three talks I am currently giving:</p>
+    </div>
+    <div class="grid grid-3 reveal">
+      <article class="card">
+        <h3>Model Science</h3>
+        <p>Why benchmarks are not enough, what the four pillars are, and what infrastructure the field would need to make findings about models accumulate.</p>
+        <p class="tiny" style="margin-top:10px">Keynote · 45 min</p>
+      </article>
+      <article class="card">
+        <h3>Explain to question, not to justify</h3>
+        <p>A critical tour of what explanation methods actually deliver, how they can be attacked, and how to use them honestly in a high-stakes setting.</p>
+        <p class="tiny" style="margin-top:10px">Invited talk / tutorial · 60–90 min</p>
+      </article>
+      <article class="card">
+        <h3>Credible AI in medicine</h3>
+        <p>What goes wrong when a model meets a clinic — multiplicity, distribution shift, and the specific ways in which validation is usually too optimistic.</p>
+        <p class="tiny" style="margin-top:10px">Domain audiences · 40 min</p>
+      </article>
+    </div>
+    <div class="btn-row">
+      <a class="btn" href="https://www.youtube.com/user/pbiecek" rel="noopener">Recorded talks</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h2>Working together</h2>
+      </div>
+    </div>
+
+    <div class="prose">
+      <p class="lead">I am interested in collaborations on the verification and interpretability of foundation models, and in applications where the stakes make credibility non-negotiable — medicine above all. I supervise doctoral students through MI².AI and, through <strong>Solutions42.ai</strong>, work with organisations that need existing models validated rather than new ones promised.</p>
+      <p>If you are considering a PhD in interpretability, verification or steering of modern models, write to me with a short note on the problem you cannot stop thinking about. For talk invitations, please include the audience, date and format — there is no fee for public-interest and educational events.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="mailto:przemyslaw.biecek@gmail.com">Email me</a>
+        <a class="btn" href="https://mi2.ai/" rel="noopener">MI².AI</a>
+        <a class="btn" href="https://solutions42.ai/" rel="noopener">Solutions42.ai</a>
+      </div>
+
+      <h3 style="margin:44px 0 10px">Short biography</h3>
+      <p>Przemysław Biecek is a Full Professor at the University of Warsaw and Director of the Centre for Credible AI at Warsaw University of Technology, where he leads the MI².AI research group. His work centres on Model Science — the interpretability, controllability and verifiability of machine learning systems. He has authored more than 200 scientific publications, is listed among the top 2% most-cited scientists worldwide, and is a Fulbright IMPACT Award laureate. His research appears in <em>Nature Machine Intelligence</em>, <em>Nature Human Behaviour</em>, NeurIPS, ICML, ICLR, CVPR, ECCV and MICCAI.</p>
+      <p>Alongside academic work he founded the Smarter Poland Foundation, which promotes data literacy in schools and public debate, and in 2021 founded Solutions42.ai after fifteen years of building solutions for universities and companies including Samsung, IBM and Disney.</p>
+      <p class="small muted" style="margin-top:18px">Academic lineage: Witold Klonecki → Julian Perkal → Hugo Steinhaus → David Hilbert. Second (biological) advisor: Stanisław Cebrat.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Przemysław Biecek</h4>
+        <p class="small muted" style="max-width:34ch">Model Science, explainable AI and credible machine learning. Warsaw, Poland.</p>
+      </div>
+      <div>
+        <h4>On this page</h4>
+        <ul>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#software">Software</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://scholar.google.com/citations?user=Af0O75cAAAAJ" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/pbiecek" rel="noopener">GitHub</a></li>
+          <li><a href="https://orcid.org/0000-0001-8423-1823" rel="noopener">ORCID</a></li>
+          <li><a href="https://mi2.ai/" rel="noopener">MI².AI</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="yr">2026</span> Przemysław Biecek</span>
+      <span>Built as a static site — no trackers, no cookies.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="to-top" href="#top" aria-label="Back to top" hidden>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</a>
+
+<script src="assets/app.js"></script>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
