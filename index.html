@@ -45,6 +45,24 @@
   ]
 }
 </script>
+<style>
+  /* PhD section */
+  .paper-card { display: flex; flex-direction: column; height: 100%; }
+  .paper-card .pub-title { font-size: 1.02rem; }
+  .paper-card .pub-meta { margin: 4px 0 12px; }
+  .paper-card .starter { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--border); }
+  .paper-card .starter strong { display: block; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); font-weight: 600; margin-bottom: 4px; }
+  .checklist { list-style: none; padding: 0; }
+  .checklist li { position: relative; padding: 10px 0 10px 30px; border-bottom: 1px solid var(--border); color: var(--text-2); }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist li::before { content: ""; position: absolute; left: 2px; top: 15px; width: 13px; height: 13px; border: 1.6px solid var(--accent); border-radius: 3px; }
+  .checklist li strong { color: var(--text); font-weight: 600; }
+  .callout { border: 1px solid var(--accent-line); background: var(--accent-soft); border-radius: 12px; padding: 18px 20px; }
+  .callout p { color: var(--text); }
+  .faq dt { font-weight: 600; color: var(--text); margin-top: 18px; }
+  .faq dd { margin: 4px 0 0; color: var(--text-2); }
+  code.inline { font-family: var(--font-mono); font-size: 0.86em; background: var(--surface-2); padding: 1px 6px; border-radius: 5px; }
+</style>
 </head>
 <body>
 <a class="skip" href="#research">Skip to content</a>
@@ -59,6 +77,7 @@
         <a href="#software">Software</a>
         <a href="#books">Books</a>
         <a href="#teaching">Teaching</a>
+        <a href="#phd">PhD</a>
         <a href="#contact">Contact</a>
       </div>
       <button class="icon-btn" data-theme-toggle type="button" aria-label="Toggle dark mode">
@@ -284,15 +303,6 @@
         </div>
       </li>
 
-      <li class="pub" data-tags="xai">
-        <div class="pub-year">2025</div>
-        <div>
-          <a class="pub-title" href="https://openreview.net/forum?id=LiUfN9h0Lx" rel="noopener">Efficient and Accurate Explanation Estimation with Distribution Compression</a>
-          <div class="pub-meta"><span class="pub-venue">ICLR</span><span class="pub-badge">Spotlight</span> — <em>Compress Then Explain</em>: 2–3× fewer model evaluations at equal explanation quality.</div>
-          <div class="tags"><span class="tag">Attribution</span><span class="tag">Efficiency</span></div>
-        </div>
-      </li>
-
       <li class="pub" data-tags="xai foundation">
         <div class="pub-year">2025</div>
         <div>
@@ -308,15 +318,6 @@
           <a class="pub-title" href="https://arxiv.org/abs/2503.22389" rel="noopener">MASCOTS: Model-Agnostic Symbolic Counterfactual Explanations for Time Series</a>
           <div class="pub-meta"><span class="pub-venue">ECML PKDD</span> — symbolic representations make time-series counterfactuals both faithful and legible.</div>
           <div class="tags"><span class="tag">Counterfactuals</span><span class="tag">Time series</span></div>
-        </div>
-      </li>
-
-      <li class="pub" data-tags="fairness">
-        <div class="pub-year">2025</div>
-        <div>
-          <a class="pub-title" href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003161" rel="noopener">Investigating the impact of balancing, filtering and complexity on predictive multiplicity: a data-centric perspective</a>
-          <div class="pub-meta"><span class="pub-venue">Information Fusion</span></div>
-          <div class="tags"><span class="tag">Predictive multiplicity</span><span class="tag">Data-centric</span></div>
         </div>
       </li>
 
@@ -807,8 +808,150 @@
   </div>
 </section>
 
+<!-- ================= PHD ================= -->
+<section id="phd">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Prospective PhD students</span>
+        <h2>Doing a PhD with me</h2>
+      </div>
+      <a class="arrow-link" href="https://credibleai.github.io/job_all.html" rel="noopener">Open positions at CCAI</a>
+    </div>
+
+    <div class="prose" style="margin-bottom:24px">
+      <p class="lead">I receive many more PhD enquiries than I can answer one by one, and a CV tells me very little about what it would be like to do research together. So before we talk about a PhD, I ask you to do one thing: a short, self-contained research task based on our recent work. It takes about two to four weeks of part-time work, and it is the best way for both of us to find out whether this kind of research suits you.</p>
+    </div>
+    <div class="callout" style="max-width:var(--w-text);margin-bottom:40px">
+      <p><strong>Who needs to do it?</strong> Everyone who has not worked with me before. If you have already co-authored a paper with our group, written a thesis under my supervision, or contributed to a project at the Centre for Credible AI, skip the task and simply email me.</p>
+    </div>
+
+    <h3 style="margin-bottom:18px">The task in four steps</h3>
+    <div class="grid grid-2 reveal">
+      <article class="card pillar">
+        <span class="num">01</span>
+        <span class="verb">Pick</span>
+        <p class="q">Which paper makes you want to argue with it?</p>
+        <p>Choose one paper from the list below and read it carefully, including the appendix. Pick the one that interests you most, not the one that looks easiest.</p>
+      </article>
+      <article class="card pillar">
+        <span class="num">02</span>
+        <span class="verb">Reproduce</span>
+        <p class="q">Can you get one key result to show up on your own machine?</p>
+        <p>Reproduce one central finding, at a smaller scale if needed: a smaller model, fewer samples, a public dataset. A laptop or free Colab is enough. Use the authors' code if it exists, but make sure you understand it.</p>
+      </article>
+      <article class="card pillar">
+        <span class="num">03</span>
+        <span class="verb">Question</span>
+        <p class="q">What would you have asked if you were a reviewer?</p>
+        <p>Formulate <em>one</em> question of your own and test it. Does the finding hold on another model, dataset or modality? Does it survive a change of hyperparameters? Is there a simpler baseline that does just as well?</p>
+      </article>
+      <article class="card pillar">
+        <span class="num">04</span>
+        <span class="verb">Write</span>
+        <p class="q">Could someone else repeat your experiment from your report?</p>
+        <p>Write a report of at most two pages (plus figures) and publish your code in a public repository. Structure: question, setup, results, <strong>what did not work</strong>, and what you would do next with three more months.</p>
+      </article>
+    </div>
+
+    <h3 style="margin:46px 0 10px">Papers to start from</h3>
+    <div class="prose" style="margin-bottom:22px">
+      <p>All from the last two years of our group's work. The suggested questions are only starting points; your own question is better.</p>
+    </div>
+    <div class="grid grid-2 reveal">
+
+      <article class="card paper-card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Explore</span><span class="tag">Neurons</span></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2604.08039" rel="noopener">LINE: LLM-based iterative neuron explanations for vision models</a>
+        <div class="pub-meta"><span class="pub-venue">NeurIPS 2026</span> — V. Zaigrajew, M. Piechota, G. Sekula, P. Biecek</div>
+        <p>A black-box loop in which a language model proposes concepts and a text-to-image model tests them, to label what individual neurons respond to.</p>
+        <div class="starter"><strong>Possible question</strong><p>How stable are the labels? Run the loop on a few neurons of a small vision model with different LLMs or seeds and measure how often they agree, and whether disagreement points to polysemantic neurons.</p></div>
+      </article>
+
+      <article class="card paper-card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Explore</span><span class="tag">Sparse autoencoders</span></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2502.20578" rel="noopener">Interpreting CLIP with hierarchical sparse autoencoders</a>
+        <div class="pub-meta"><span class="pub-venue">ICML 2025</span> — V. Zaigrajew, H. Baniecki, P. Biecek</div>
+        <p>A hierarchical SAE architecture that extracts interpretable concepts from vision–language embeddings with a better sparsity/fidelity trade-off.</p>
+        <div class="starter"><strong>Possible question</strong><p>Train a small SAE on CLIP embeddings of a public dataset twice with different seeds. Which concepts reappear and which do not? How much should we trust a single dictionary?</p></div>
+      </article>
+
+      <article class="card paper-card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Explore</span><span class="tag">Game theory</span></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2605.06295" rel="noopener">The metagame of interpretability and meta-attributions</a>
+        <div class="pub-meta"><span class="pub-venue">NeurIPS 2026</span> — H. Baniecki, P. Biecek, F. Fumagalli</div>
+        <p>Treats an attribution method itself as a cooperative game, to measure how one feature changes the attribution of another.</p>
+        <div class="starter"><strong>Possible question</strong><p>On a small text or tabular model, find cases where meta-attributions change the top-k ranking of a standard attribution. How often does it happen, and can you predict when?</p></div>
+      </article>
+
+      <article class="card paper-card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Explore</span><span class="tag">Vision–language</span></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2508.05430" rel="noopener">Explaining similarity in vision–language encoders with weighted Banzhaf interactions</a>
+        <div class="pub-meta"><span class="pub-venue">NeurIPS 2025</span> — H. Baniecki, M. Muschalik, F. Fumagalli, B. Hammer, E. Hüllermeier, P. Biecek</div>
+        <p>FIxLIP explains image–text similarity through cross-modal interactions instead of first-order saliency maps.</p>
+        <div class="starter"><strong>Possible question</strong><p>Take captions involving counting or spatial relations, where CLIP-like models are known to fail. Do interaction explanations reveal the failure better than ordinary saliency maps?</p></div>
+      </article>
+
+      <article class="card paper-card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Verify</span><span class="tag">Medicine</span></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2602.02560" rel="noopener">Auditing Sybil: explaining deep lung cancer risk prediction through generative interventional attributions</a>
+        <div class="pub-meta"><span class="pub-venue">ICML 2026</span> — B. Sobieski, J. Grzywaczewski, K. Dobiczek, M. Wójcik, T. Bartczak, P. Szatkowski, P. Bombiński, M. Tivnan, P. Biecek</div>
+        <p>An interventional audit of a clinical model: realistic generative edits show what really drives the risk score, including failure modes.</p>
+        <div class="starter"><strong>Possible question</strong><p>The full 3D pipeline is heavy, so transfer the idea: design a simple interventional audit of a public 2D medical classifier (insert or remove a structure) and compare it with what a saliency map suggests.</p></div>
+      </article>
+
+      <article class="card paper-card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-accent">Explore</span><span class="tag">Counterfactuals</span></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2503.22389" rel="noopener">MASCOTS: model-agnostic symbolic counterfactual explanations for time series</a>
+        <div class="pub-meta"><span class="pub-venue">ECML PKDD 2025</span> — D. Płudowski, F. Spinnato, P. Wilczyński, K. Kotowski, E.V. Ntagiou, R. Guidotti, P. Biecek</div>
+        <p>Counterfactuals built in a symbolic representation of time series, so that they are both faithful and readable.</p>
+        <div class="starter"><strong>Possible question</strong><p>On a few datasets from the UCR archive, how does the choice of symbolic representation trade sparsity against plausibility? Would a domain expert find the counterfactuals useful?</p></div>
+      </article>
+
+      <article class="card paper-card">
+        <div class="tags" style="margin-bottom:10px"><span class="tag tag-warm">Your own idea</span></div>
+        <span class="pub-title">Something else from Model Science</span>
+        <div class="pub-meta">Any paper from the <a class="link" href="#publications">publication list</a>, or a question of your own</div>
+        <p>If you have a strong idea about verifying, explaining or steering modern models, go for it, as long as it connects to our work and you can explain in two sentences why it matters.</p>
+        <div class="starter"><strong>Tip</strong><p>Start from the <a class="link" href="https://arxiv.org/abs/2606.01189" rel="noopener">Model Science agenda paper</a> and look for a question in the gaps it describes.</p></div>
+      </article>
+
+    </div>
+
+    <div class="prose">
+      <h3 style="margin:46px 0 10px">What to send</h3>
+      <p>One email with the subject line <code class="inline">[PhD task] &lt;paper&gt; — &lt;your name&gt;</code> and:</p>
+      <ul class="checklist" style="margin-top:12px">
+        <li><strong>The report</strong> as a PDF: at most two pages plus figures — question, setup, results, what did not work, next steps.</li>
+        <li><strong>A link to a public repository</strong> with code and a README that lets someone rerun your main experiment.</li>
+        <li><strong>Your CV</strong>, including the expected date of your master's degree.</li>
+        <li><strong>Three sentences</strong> on the research direction you would like to pursue and why.</li>
+        <li><strong>A short note on tools</strong>: if you used AI assistants, say how. That is fine, but you must be able to explain every line and every decision.</li>
+      </ul>
+
+      <h3 style="margin:44px 0 10px">What happens next</h3>
+      <p>I read every report. If the work is promising, we schedule a 30–45 minute call, mostly about your experiment: why you made the choices you made, and what surprised you. A good report does not guarantee a position, but it is the start of every conversation about one.</p>
+      <p>Every candidate must also pass the regular admission to a doctoral school, at the University of Warsaw (admissions usually start in April) or Warsaw University of Technology (usually from July). A master's degree is required by the start of the PhD, so the best time to do the task is between autumn and early spring.</p>
+
+      <h3 style="margin:44px 0 4px">Frequently asked</h3>
+      <dl class="faq">
+        <dt>Do I need publications?</dt>
+        <dd>No. A careful, honest report matters more than a list of papers.</dd>
+        <dt>What if my reproduction fails?</dt>
+        <dd>Then document why. A well-argued "this did not reproduce, and here is my best guess why" is a perfectly good report, and often a more interesting one.</dd>
+        <dt>Can I contact the authors?</dt>
+        <dd>Yes, with specific questions about the paper or the code. Please do not ask them to do the task for you.</dd>
+        <dt>Can I do an internship instead?</dt>
+        <dd>We do not have dedicated funding for internships. Open positions, when available, are listed on the CCAI website.</dd>
+        <dt>Is this also for postdocs?</dt>
+        <dd>No. If you already have a PhD, write to me directly with your research statement and two papers you are proud of.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
 <!-- ================= CONTACT ================= -->
-<section id="contact">
+<section class="tinted" id="contact">
   <div class="wrap">
     <div class="section-head">
       <div>
@@ -819,12 +962,7 @@
 
     <div class="prose">
       <p class="lead">I am interested in collaborations on the verification and interpretability of foundation models, and in applications where the stakes make credibility non-negotiable — medicine above all. I supervise doctoral students through MI².AI and, through <strong>Solutions42.ai</strong>, work with organisations that need existing models validated rather than new ones promised.</p>
-      <p>If you are considering a PhD in interpretability, verification or steering of modern models, write to me with a short note on the problem you cannot stop thinking about. For talk invitations, please include the audience, date and format — there is no fee for public-interest and educational events.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="mailto:przemyslaw.biecek@gmail.com">Email me</a>
-        <a class="btn" href="https://mi2.ai/" rel="noopener">MI².AI</a>
-        <a class="btn" href="https://solutions42.ai/" rel="noopener">Solutions42.ai</a>
-      </div>
+      <p>If you are considering a PhD in interpretability, verification or steering of modern models, start with the <a class="link" href="#phd">short research task described above</a>; it is the first step before we talk. For talk invitations, please include the audience, date and format — there is no fee for public-interest and educational events.</p>
 
       <h3 style="margin:44px 0 10px">Short biography</h3>
       <p>Przemysław Biecek is a Full Professor at the University of Warsaw and Director of the Centre for Credible AI at Warsaw University of Technology, where he leads the MI².AI research group. His work centres on Model Science — the interpretability, controllability and verifiability of machine learning systems. He has authored more than 200 scientific publications, is listed among the top 2% most-cited scientists worldwide, and is a Fulbright IMPACT Award laureate. His research appears in <em>Nature Machine Intelligence</em>, <em>Nature Human Behaviour</em>, NeurIPS, ICML, ICLR, CVPR, ECCV and MICCAI.</p>
@@ -851,6 +989,7 @@
           <li><a href="#software">Software</a></li>
           <li><a href="#books">Books</a></li>
           <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#phd">PhD</a></li>
         </ul>
       </div>
       <div>
